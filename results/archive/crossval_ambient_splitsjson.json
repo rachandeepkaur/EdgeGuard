@@ -1,0 +1,109 @@
+{
+  "settings": {
+    "split": "/Users/pc/Downloads/road/splits.json",
+    "window_s": 1.0,
+    "stride_s": 0.5,
+    "max_windows_per_capture": 100,
+    "max_false_alarm_rate": 0.01,
+    "frozen_mode": "width",
+    "stage2_watch_ids": [
+      "0D0",
+      "6E0"
+    ]
+  },
+  "protocol": "ambient leave-one-capture-out, out-of-fold threshold",
+  "captures": 9,
+  "per_capture": [
+    {
+      "capture_id": "cap01",
+      "windows": 100,
+      "v1_threshold": 0.9581993569131834,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9988885442514475,
+      "v2_alarms": 1
+    },
+    {
+      "capture_id": "cap02",
+      "windows": 94,
+      "v1_threshold": 0.9554140127388536,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9988991295442908,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap03",
+      "windows": 98,
+      "v1_threshold": 0.9551282051282053,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9988920952282799,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap04",
+      "windows": 95,
+      "v1_threshold": 0.9537480063795855,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9988973793527873,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap05",
+      "windows": 99,
+      "v1_threshold": 0.9582664526484752,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9991139784946238,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap06",
+      "windows": 94,
+      "v1_threshold": 0.9554140127388536,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9988991295442908,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap07",
+      "windows": 51,
+      "v1_threshold": 0.955290611028316,
+      "v1_alarms": 1,
+      "v2_threshold": 0.998969467478311,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap08",
+      "windows": 92,
+      "v1_threshold": 0.9582664526484752,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9989026133115557,
+      "v2_alarms": 1
+    },
+    {
+      "capture_id": "cap09",
+      "windows": 90,
+      "v1_threshold": 0.9525316455696203,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9984082901554405,
+      "v2_alarms": 29
+    }
+  ],
+  "summary": {
+    "v1": {
+      "alarms": 6,
+      "windows": 813,
+      "false_alarm_rate": 0.00738,
+      "false_alarm_rate_95_upper": 0.014514,
+      "target": 0.01,
+      "captures_over_target": 5
+    },
+    "v2": {
+      "alarms": 31,
+      "windows": 813,
+      "false_alarm_rate": 0.03813,
+      "false_alarm_rate_95_upper": 0.051116,
+      "target": 0.01,
+      "captures_over_target": 2
+    }
+  },
+  "note": "Procedure-level estimate: each fold has its own models and threshold. Report beside the frozen-model final-test number, never instead of it, and never use it to tune."
+}

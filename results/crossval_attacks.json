@@ -1,0 +1,343 @@
+{
+  "settings": {
+    "manifest": "/Users/pc/Documents/products/EdgeGuard/part1/split_manifest.json",
+    "window_s": 1.0,
+    "max_windows_per_capture": 100,
+    "max_false_alarm_rate": 0.01,
+    "frozen_mode": "width"
+  },
+  "protocol": "2-fold CV over development attack recordings (fold = index)",
+  "folds": [
+    {
+      "fold": 1,
+      "watch_ids": [
+        "0D0",
+        "6E0"
+      ],
+      "held_out": 9,
+      "v1_threshold": 0.9587628865979383,
+      "v2_threshold": 0.9988083361046447
+    },
+    {
+      "fold": 2,
+      "watch_ids": [
+        "0D0",
+        "6E0"
+      ],
+      "held_out": 9,
+      "v1_threshold": 0.9587628865979383,
+      "v2_threshold": 0.9988083361046447
+    }
+  ],
+  "per_capture": [
+    {
+      "capture_id": "cap17",
+      "fold": 1,
+      "family": "correlated_signal",
+      "condition": "fabrication",
+      "attacked": 22,
+      "normal": 11,
+      "v1_detected": 1,
+      "v1_false_alarms": 0,
+      "v2_detected": 22,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap18",
+      "fold": 1,
+      "family": "correlated_signal",
+      "condition": "masquerade",
+      "attacked": 22,
+      "normal": 0,
+      "v1_detected": 1,
+      "v1_false_alarms": 0,
+      "v2_detected": 22,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap23",
+      "fold": 1,
+      "family": "fuzzing",
+      "condition": "fuzzing",
+      "attacked": 4,
+      "normal": 16,
+      "v1_detected": 4,
+      "v1_false_alarms": 0,
+      "v2_detected": 4,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap28",
+      "fold": 1,
+      "family": "max_speedometer",
+      "condition": "fabrication",
+      "attacked": 25,
+      "normal": 63,
+      "v1_detected": 0,
+      "v1_false_alarms": 3,
+      "v2_detected": 25,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap29",
+      "fold": 1,
+      "family": "max_speedometer",
+      "condition": "masquerade",
+      "attacked": 25,
+      "normal": 0,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 25,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap34",
+      "fold": 1,
+      "family": "reverse_light_off",
+      "condition": "fabrication",
+      "attacked": 8,
+      "normal": 20,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 0,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap35",
+      "fold": 1,
+      "family": "reverse_light_off",
+      "condition": "masquerade",
+      "attacked": 8,
+      "normal": 0,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 0,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap40",
+      "fold": 1,
+      "family": "reverse_light_on",
+      "condition": "fabrication",
+      "attacked": 21,
+      "normal": 33,
+      "v1_detected": 0,
+      "v1_false_alarms": 1,
+      "v2_detected": 0,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap41",
+      "fold": 1,
+      "family": "reverse_light_on",
+      "condition": "masquerade",
+      "attacked": 21,
+      "normal": 0,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 0,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap19",
+      "fold": 2,
+      "family": "correlated_signal",
+      "condition": "fabrication",
+      "attacked": 22,
+      "normal": 6,
+      "v1_detected": 1,
+      "v1_false_alarms": 0,
+      "v2_detected": 22,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap20",
+      "fold": 2,
+      "family": "correlated_signal",
+      "condition": "masquerade",
+      "attacked": 22,
+      "normal": 0,
+      "v1_detected": 1,
+      "v1_false_alarms": 0,
+      "v2_detected": 22,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap24",
+      "fold": 2,
+      "family": "fuzzing",
+      "condition": "fuzzing",
+      "attacked": 2,
+      "normal": 11,
+      "v1_detected": 2,
+      "v1_false_alarms": 0,
+      "v2_detected": 2,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap30",
+      "fold": 2,
+      "family": "max_speedometer",
+      "condition": "fabrication",
+      "attacked": 32,
+      "normal": 27,
+      "v1_detected": 0,
+      "v1_false_alarms": 1,
+      "v2_detected": 32,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap31",
+      "fold": 2,
+      "family": "max_speedometer",
+      "condition": "masquerade",
+      "attacked": 32,
+      "normal": 0,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 32,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap36",
+      "fold": 2,
+      "family": "reverse_light_off",
+      "condition": "fabrication",
+      "attacked": 24,
+      "normal": 16,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 1,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap37",
+      "fold": 2,
+      "family": "reverse_light_off",
+      "condition": "masquerade",
+      "attacked": 24,
+      "normal": 0,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 0,
+      "v2_false_alarms": 0
+    },
+    {
+      "capture_id": "cap42",
+      "fold": 2,
+      "family": "reverse_light_on",
+      "condition": "fabrication",
+      "attacked": 38,
+      "normal": 34,
+      "v1_detected": 0,
+      "v1_false_alarms": 1,
+      "v2_detected": 38,
+      "v2_false_alarms": 1
+    },
+    {
+      "capture_id": "cap43",
+      "fold": 2,
+      "family": "reverse_light_on",
+      "condition": "masquerade",
+      "attacked": 38,
+      "normal": 0,
+      "v1_detected": 0,
+      "v1_false_alarms": 0,
+      "v2_detected": 0,
+      "v2_false_alarms": 0
+    }
+  ],
+  "summary": {
+    "v1": {
+      "fabrication": {
+        "per_family_recall": {
+          "correlated_signal": 0.0455,
+          "max_speedometer": 0.0,
+          "reverse_light_off": 0.0,
+          "reverse_light_on": 0.0
+        },
+        "macro_recall": 0.0114
+      },
+      "masquerade": {
+        "per_family_recall": {
+          "correlated_signal": 0.0455,
+          "max_speedometer": 0.0,
+          "reverse_light_off": 0.0,
+          "reverse_light_on": 0.0
+        },
+        "macro_recall": 0.0114
+      },
+      "fuzzing": {
+        "per_family_recall": {
+          "fuzzing": 1.0
+        },
+        "macro_recall": 1.0
+      },
+      "all": {
+        "per_family_recall": {
+          "correlated_signal": 0.0455,
+          "fuzzing": 1.0,
+          "max_speedometer": 0.0,
+          "reverse_light_off": 0.0,
+          "reverse_light_on": 0.0
+        },
+        "macro_recall": 0.2091
+      },
+      "normal_windows_in_attack_captures": {
+        "alarms": 6,
+        "windows": 237,
+        "false_alarm_rate": 0.025316,
+        "false_alarm_rate_95_upper": 0.049354,
+        "normal_hours": 0.0658,
+        "false_alarms_per_hour": 91.139,
+        "target": 0.01
+      }
+    },
+    "v2": {
+      "fabrication": {
+        "per_family_recall": {
+          "correlated_signal": 1.0,
+          "max_speedometer": 1.0,
+          "reverse_light_off": 0.0312,
+          "reverse_light_on": 0.6441
+        },
+        "macro_recall": 0.6688
+      },
+      "masquerade": {
+        "per_family_recall": {
+          "correlated_signal": 1.0,
+          "max_speedometer": 1.0,
+          "reverse_light_off": 0.0,
+          "reverse_light_on": 0.0
+        },
+        "macro_recall": 0.5
+      },
+      "fuzzing": {
+        "per_family_recall": {
+          "fuzzing": 1.0
+        },
+        "macro_recall": 1.0
+      },
+      "all": {
+        "per_family_recall": {
+          "correlated_signal": 1.0,
+          "fuzzing": 1.0,
+          "max_speedometer": 1.0,
+          "reverse_light_off": 0.0156,
+          "reverse_light_on": 0.322
+        },
+        "macro_recall": 0.6675
+      },
+      "normal_windows_in_attack_captures": {
+        "alarms": 1,
+        "windows": 237,
+        "false_alarm_rate": 0.004219,
+        "false_alarm_rate_95_upper": 0.019859,
+        "normal_hours": 0.0658,
+        "false_alarms_per_hour": 15.19,
+        "target": 0.01
+      }
+    }
+  },
+  "note": "Procedure-level estimate: each fold has its own models and threshold. Use it to choose settings; report it beside the frozen-model final-test number, never instead of it."
+}

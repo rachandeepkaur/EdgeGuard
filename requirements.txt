@@ -1,0 +1,6 @@
+   pydantic>=2.5,<3
+   fastapi>=0.110
+   uvicorn>=0.27
+   httpx>=0.27
+   pytest>=8.0
+psutil>=5.9   # optional: exact CPU / memory numbers on the dashboard

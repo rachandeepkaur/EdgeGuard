@@ -1,0 +1,8 @@
+{
+  "n_bins": 10,
+  "n_channels": 3,
+  "threshold": 0.4609056413173676,
+  "training_windows": 5854,
+  "training_attack_windows": 390,
+  "final_train_loss": 1.0077027082443237
+}

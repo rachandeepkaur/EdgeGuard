@@ -1,0 +1,74 @@
+{
+  "model_version": "v2",
+  "data_dir": "data/road",
+  "captures": [
+    "correlated_signal_attack_1",
+    "correlated_signal_attack_1_masquerade",
+    "correlated_signal_attack_2",
+    "correlated_signal_attack_2_masquerade",
+    "fuzzing_attack_1",
+    "fuzzing_attack_2",
+    "max_speedometer_attack_1",
+    "max_speedometer_attack_1_masquerade",
+    "max_speedometer_attack_2",
+    "max_speedometer_attack_2_masquerade",
+    "reverse_light_off_attack_1",
+    "reverse_light_off_attack_1_masquerade",
+    "reverse_light_off_attack_2",
+    "reverse_light_off_attack_2_masquerade",
+    "reverse_light_on_attack_1",
+    "reverse_light_on_attack_1_masquerade",
+    "reverse_light_on_attack_2",
+    "reverse_light_on_attack_2_masquerade"
+  ],
+  "families_tested": [
+    "freeze",
+    "offset"
+  ],
+  "attacks_proposed": {
+    "freeze": 837,
+    "offset": 837
+  },
+  "attacks_skipped": {
+    "freeze": 0,
+    "offset": 0
+  },
+  "windows_evaluated": 2511,
+  "recall_overall": 0.22759856630824374,
+  "recall_by_family": {
+    "freeze": 0.15770609318996415,
+    "offset": 0.2974910394265233
+  },
+  "false_alarm_rate": 0.2974910394265233,
+  "precision": 0.6047619047619047,
+  "f1": 0.3307291666666667,
+  "mean_inference_ms": 2.401014178041323,
+  "escalation_quality": {
+    "windows": 2511,
+    "band_half_width": 0.09502826737612236,
+    "escalations": 898,
+    "escalation_rate": 0.35762644364794904,
+    "local_errors": 1542,
+    "local_false_positives": 249,
+    "local_false_negatives": 1293,
+    "escalated_errors": 432,
+    "escalated_false_positives": 249,
+    "escalated_false_negatives": 183,
+    "escalation_precision": 0.48106904231625836,
+    "escalation_recall": 0.2801556420233463,
+    "error_rate_outside_band": 0.6881587104773713,
+    "local_accuracy": 0.3859020310633214,
+    "local_plus_perfect_cloud_accuracy": 0.5579450418160096,
+    "bundle_bytes_mean": 241.28841870824053,
+    "bundle_bytes_max": 269,
+    "bundle_bytes_total": 216677,
+    "bundle_fields": [
+      "attack_score",
+      "decision",
+      "evidence",
+      "model_version",
+      "threshold",
+      "window_id"
+    ]
+  }
+}

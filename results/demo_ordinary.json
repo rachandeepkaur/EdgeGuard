@@ -1,0 +1,31 @@
+{
+  "model_version": "v2",
+  "data_dir": "data/road",
+  "group": "validation",
+  "captures": [
+    "ambient_dyno_drive_benign_anomaly",
+    "ambient_dyno_drive_extended_short"
+  ],
+  "windows": 815,
+  "attack_decisions": 5,
+  "action_counts": {
+    "SIMULATED_ALERT": 5,
+    "SIMULATED_ISOLATION": 0,
+    "SIMULATED_FORWARD": 810
+  },
+  "latency_ms_mean": 1.3496849380942073,
+  "latency_ms_median": 1.5830229967832565,
+  "latency_ms_p95": 1.7257878032978624,
+  "latency_ms_max": 1.8596469890326262,
+  "escalation_band_half_width": 0.09502826737612236,
+  "egress": {
+    "windows": 815,
+    "escalations": 240,
+    "escalation_rate": 0.294478527607362,
+    "failed_calls": 0,
+    "mean_added_latency_ms": 14.71974854769845,
+    "p95_added_latency_ms": 15.53063199389726,
+    "corrections": 235,
+    "correction_rate": 0.9791666666666666
+  }
+}

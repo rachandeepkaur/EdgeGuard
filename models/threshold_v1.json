@@ -1,0 +1,5 @@
+{
+  "threshold": 0.9587628865979383,
+  "model_version": "v1",
+  "rule": "score >= threshold -> ATTACK; score < threshold -> ACCEPT"
+}

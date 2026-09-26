@@ -1,0 +1,112 @@
+{
+  "settings": {
+    "manifest": "/Users/pc/Documents/products/EdgeGuard/part1/split_manifest.json",
+    "window_s": 1.0,
+    "max_windows_per_capture": 100,
+    "max_false_alarm_rate": 0.01,
+    "frozen_mode": "width",
+    "stage2_watch_ids": [
+      "0D0",
+      "6E0"
+    ]
+  },
+  "protocol": "normal-drive leave-one-capture-out, out-of-fold threshold",
+  "captures": 9,
+  "per_capture": [
+    {
+      "capture_id": "cap01",
+      "windows": 97,
+      "v1_threshold": 0.9582608695652175,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9987980097277352,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap03",
+      "windows": 92,
+      "v1_threshold": 0.9650959860383945,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9988083361046447,
+      "v2_alarms": 1
+    },
+    {
+      "capture_id": "cap04",
+      "windows": 94,
+      "v1_threshold": 0.9619377162629759,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9988042269187987,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap05",
+      "windows": 90,
+      "v1_threshold": 0.9587628865979383,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9982709949154142,
+      "v2_alarms": 29
+    },
+    {
+      "capture_id": "cap06",
+      "windows": 98,
+      "v1_threshold": 0.9616724738675959,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9987959229390682,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap07",
+      "windows": 47,
+      "v1_threshold": 0.9616000000000001,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9988938622215363,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap08",
+      "windows": 99,
+      "v1_threshold": 0.9650959860383945,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9990369331463302,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap09",
+      "windows": 95,
+      "v1_threshold": 0.9601386481802427,
+      "v1_alarms": 0,
+      "v2_threshold": 0.9988021616803164,
+      "v2_alarms": 0
+    },
+    {
+      "capture_id": "cap10",
+      "windows": 51,
+      "v1_threshold": 0.9613526570048311,
+      "v1_alarms": 1,
+      "v2_threshold": 0.9988867602133278,
+      "v2_alarms": 0
+    }
+  ],
+  "summary": {
+    "v1": {
+      "alarms": 5,
+      "windows": 763,
+      "false_alarm_rate": 0.006553,
+      "false_alarm_rate_95_upper": 0.013729,
+      "normal_hours": 0.2119,
+      "false_alarms_per_hour": 23.591,
+      "target": 0.01,
+      "captures_over_target": 5
+    },
+    "v2": {
+      "alarms": 30,
+      "windows": 763,
+      "false_alarm_rate": 0.039318,
+      "false_alarm_rate_95_upper": 0.052954,
+      "normal_hours": 0.2119,
+      "false_alarms_per_hour": 141.547,
+      "target": 0.01,
+      "captures_over_target": 2
+    }
+  },
+  "note": "Procedure-level estimate: each fold has its own models and threshold. Use it to choose settings; report it beside the frozen-model final-test number, never instead of it."
+}

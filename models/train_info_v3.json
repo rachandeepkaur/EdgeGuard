@@ -1,0 +1,30 @@
+{
+  "model_version": "v3",
+  "window_s": 1.0,
+  "stride_s": 1.0,
+  "train_capture_ids": [
+    "cap01",
+    "cap04",
+    "cap06",
+    "cap07",
+    "cap08",
+    "cap09",
+    "cap10"
+  ],
+  "validation_capture_ids": [
+    "cap03",
+    "cap05"
+  ],
+  "train_windows": 581,
+  "validation_windows": 182,
+  "max_false_alarm_rate": 0.01,
+  "threshold": 0.9988083361046447,
+  "validation_false_alarm_rate": 0.005494505494505495,
+  "base_stage1_version": "v1",
+  "stage2_ranges_from_full_captures": true,
+  "stage2_watch_ids": [
+    "0D0",
+    "6E0"
+  ],
+  "stage2_frozen_mode": "rate"
+}

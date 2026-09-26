@@ -1,0 +1,4910 @@
+{
+  "summary": {
+    "mock_traffic": false,
+    "model_version": "v1",
+    "machine": "spark-3f6",
+    "architecture": "aarch64",
+    "python_version": "3.12.3",
+    "windows": 815,
+    "attack_decisions": 2,
+    "latency_ms_mean": 0.22696105326223046,
+    "latency_ms_median": 0.27788704028353095,
+    "latency_ms_p95": 0.28431100654415786,
+    "latency_ms_max": 0.3851020010188222,
+    "windows_per_second": 4406.042295039059,
+    "wall_clock_seconds": 0.18852796201827005,
+    "note": "Real windows. Inference latency only; window collection time excluded."
+  },
+  "windows": [
+    {
+      "window_id": "cap03_w0000",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.34883100306615233
+    },
+    {
+      "window_id": "cap03_w0001",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2894389908760786
+    },
+    {
+      "window_id": "cap03_w0002",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28043094789609313
+    },
+    {
+      "window_id": "cap03_w0003",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27988600777462125
+    },
+    {
+      "window_id": "cap03_w0004",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27953501557931304
+    },
+    {
+      "window_id": "cap03_w0005",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2773909945972264
+    },
+    {
+      "window_id": "cap03_w0006",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2876149956136942
+    },
+    {
+      "window_id": "cap03_w0007",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.28830295195803046
+    },
+    {
+      "window_id": "cap03_w0008",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.24721503723412752
+    },
+    {
+      "window_id": "cap03_w0009",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.17123098950833082
+    },
+    {
+      "window_id": "cap03_w0010",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.1225760206580162
+    },
+    {
+      "window_id": "cap03_w0011",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.09028700878843665
+    },
+    {
+      "window_id": "cap03_w0012",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.11799996718764305
+    },
+    {
+      "window_id": "cap03_w0013",
+      "decision": "ACCEPT",
+      "attack_score": 0.20446735395189003,
+      "latency_ms": 0.12003100709989667
+    },
+    {
+      "window_id": "cap03_w0014",
+      "decision": "ACCEPT",
+      "attack_score": 0.9123711340206185,
+      "latency_ms": 0.11777598410844803
+    },
+    {
+      "window_id": "cap03_w0015",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.10689499322324991
+    },
+    {
+      "window_id": "cap03_w0016",
+      "decision": "ACCEPT",
+      "attack_score": 0.20446735395189003,
+      "latency_ms": 0.1021920470520854
+    },
+    {
+      "window_id": "cap03_w0017",
+      "decision": "ACCEPT",
+      "attack_score": 0.015463917525773196,
+      "latency_ms": 0.10051100980490446
+    },
+    {
+      "window_id": "cap03_w0018",
+      "decision": "ACCEPT",
+      "attack_score": 0.015463917525773196,
+      "latency_ms": 0.10316801490262151
+    },
+    {
+      "window_id": "cap03_w0019",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.09921600576490164
+    },
+    {
+      "window_id": "cap03_w0020",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10158302029594779
+    },
+    {
+      "window_id": "cap03_w0021",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.10310404468327761
+    },
+    {
+      "window_id": "cap03_w0022",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10375899728387594
+    },
+    {
+      "window_id": "cap03_w0023",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.10123202810063958
+    },
+    {
+      "window_id": "cap03_w0024",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.10150298476219177
+    },
+    {
+      "window_id": "cap03_w0025",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.10123196989297867
+    },
+    {
+      "window_id": "cap03_w0026",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10124803520739079
+    },
+    {
+      "window_id": "cap03_w0027",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10012701386585832
+    },
+    {
+      "window_id": "cap03_w0028",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10027200914919376
+    },
+    {
+      "window_id": "cap03_w0029",
+      "decision": "ACCEPT",
+      "attack_score": 0.015463917525773196,
+      "latency_ms": 0.10039896005764604
+    },
+    {
+      "window_id": "cap03_w0030",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.10209600441157818
+    },
+    {
+      "window_id": "cap03_w0031",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10519899660721421
+    },
+    {
+      "window_id": "cap03_w0032",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.09980803588405252
+    },
+    {
+      "window_id": "cap03_w0033",
+      "decision": "ACCEPT",
+      "attack_score": 0.012027491408934709,
+      "latency_ms": 0.10016001760959625
+    },
+    {
+      "window_id": "cap03_w0034",
+      "decision": "ACCEPT",
+      "attack_score": 0.010309278350515464,
+      "latency_ms": 0.10073499288409948
+    },
+    {
+      "window_id": "cap03_w0035",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.1014400040730834
+    },
+    {
+      "window_id": "cap03_w0036",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10071898577734828
+    },
+    {
+      "window_id": "cap03_w0037",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10135996853932738
+    },
+    {
+      "window_id": "cap03_w0038",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09983900235965848
+    },
+    {
+      "window_id": "cap03_w0039",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10022398782894015
+    },
+    {
+      "window_id": "cap03_w0040",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10927999392151833
+    },
+    {
+      "window_id": "cap03_w0041",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10886299423873425
+    },
+    {
+      "window_id": "cap03_w0042",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0996800372377038
+    },
+    {
+      "window_id": "cap03_w0043",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09831896750256419
+    },
+    {
+      "window_id": "cap03_w0044",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.10038400068879128
+    },
+    {
+      "window_id": "cap03_w0045",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.10161602403968573
+    },
+    {
+      "window_id": "cap03_w0046",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10132795432582498
+    },
+    {
+      "window_id": "cap03_w0047",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1005600206553936
+    },
+    {
+      "window_id": "cap03_w0048",
+      "decision": "ACCEPT",
+      "attack_score": 0.010309278350515464,
+      "latency_ms": 0.037680030800402164
+    },
+    {
+      "window_id": "cap03_w0049",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1023199874907732
+    },
+    {
+      "window_id": "cap03_w0050",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10115199256688356
+    },
+    {
+      "window_id": "cap03_w0051",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10393495904281735
+    },
+    {
+      "window_id": "cap03_w0052",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10095996549353004
+    },
+    {
+      "window_id": "cap03_w0053",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09939097799360752
+    },
+    {
+      "window_id": "cap03_w0054",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09728001896291971
+    },
+    {
+      "window_id": "cap03_w0055",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.07680000271648169
+    },
+    {
+      "window_id": "cap03_w0056",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.036510988138616085
+    },
+    {
+      "window_id": "cap03_w0057",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.10468799155205488
+    },
+    {
+      "window_id": "cap03_w0058",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1048319973051548
+    },
+    {
+      "window_id": "cap03_w0059",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10062300134450197
+    },
+    {
+      "window_id": "cap03_w0060",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10040000779554248
+    },
+    {
+      "window_id": "cap03_w0061",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.1042709918692708
+    },
+    {
+      "window_id": "cap03_w0062",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09956798749044538
+    },
+    {
+      "window_id": "cap03_w0063",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09900698205456138
+    },
+    {
+      "window_id": "cap03_w0064",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0997280003502965
+    },
+    {
+      "window_id": "cap03_w0065",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09943998884409666
+    },
+    {
+      "window_id": "cap03_w0066",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09951897663995624
+    },
+    {
+      "window_id": "cap03_w0067",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09684800170361996
+    },
+    {
+      "window_id": "cap03_w0068",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10039901826530695
+    },
+    {
+      "window_id": "cap03_w0069",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.10035198647528887
+    },
+    {
+      "window_id": "cap03_w0070",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.10176002979278564
+    },
+    {
+      "window_id": "cap03_w0071",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10100699728354812
+    },
+    {
+      "window_id": "cap03_w0072",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09857601253315806
+    },
+    {
+      "window_id": "cap03_w0073",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09959901217371225
+    },
+    {
+      "window_id": "cap03_w0074",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09992002742365003
+    },
+    {
+      "window_id": "cap03_w0075",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09963096817955375
+    },
+    {
+      "window_id": "cap03_w0076",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10001595364883542
+    },
+    {
+      "window_id": "cap03_w0077",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10915199527516961
+    },
+    {
+      "window_id": "cap03_w0078",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09884702740237117
+    },
+    {
+      "window_id": "cap03_w0079",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09750400204211473
+    },
+    {
+      "window_id": "cap03_w0080",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10691100033000112
+    },
+    {
+      "window_id": "cap03_w0081",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.10123196989297867
+    },
+    {
+      "window_id": "cap03_w0082",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.10246300371363759
+    },
+    {
+      "window_id": "cap03_w0083",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.1021760399453342
+    },
+    {
+      "window_id": "cap03_w0084",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10100798681378365
+    },
+    {
+      "window_id": "cap03_w0085",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10193500202149153
+    },
+    {
+      "window_id": "cap03_w0086",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0997119932435453
+    },
+    {
+      "window_id": "cap03_w0087",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09951903484761715
+    },
+    {
+      "window_id": "cap03_w0088",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1006399979814887
+    },
+    {
+      "window_id": "cap03_w0089",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10339199798181653
+    },
+    {
+      "window_id": "cap03_w0090",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0991509878076613
+    },
+    {
+      "window_id": "cap03_w0091",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.10086403926834464
+    },
+    {
+      "window_id": "cap03_w0092",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.09972701082006097
+    },
+    {
+      "window_id": "cap03_w0093",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09452796075493097
+    },
+    {
+      "window_id": "cap03_w0094",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09791902266442776
+    },
+    {
+      "window_id": "cap03_w0095",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09361602133139968
+    },
+    {
+      "window_id": "cap03_w0096",
+      "decision": "ACCEPT",
+      "attack_score": 0.8642611683848798,
+      "latency_ms": 0.08502398850396276
+    },
+    {
+      "window_id": "cap03_w0097",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10020699119195342
+    },
+    {
+      "window_id": "cap03_w0098",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0996640301309526
+    },
+    {
+      "window_id": "cap03_w0099",
+      "decision": "ACCEPT",
+      "attack_score": 0.9261168384879725,
+      "latency_ms": 0.10763102909550071
+    },
+    {
+      "window_id": "cap03_w0100",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.10255997767671943
+    },
+    {
+      "window_id": "cap03_w0101",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10043202200904489
+    },
+    {
+      "window_id": "cap03_w0102",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09971100371330976
+    },
+    {
+      "window_id": "cap03_w0103",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1022560172714293
+    },
+    {
+      "window_id": "cap03_w0104",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1000789925456047
+    },
+    {
+      "window_id": "cap03_w0105",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09961600881069899
+    },
+    {
+      "window_id": "cap03_w0106",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10212702909484506
+    },
+    {
+      "window_id": "cap03_w0107",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.1006079837679863
+    },
+    {
+      "window_id": "cap03_w0108",
+      "decision": "ACCEPT",
+      "attack_score": 0.9123711340206185,
+      "latency_ms": 0.10027200914919376
+    },
+    {
+      "window_id": "cap03_w0109",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.1049910206347704
+    },
+    {
+      "window_id": "cap03_w0110",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.14460802776739
+    },
+    {
+      "window_id": "cap03_w0111",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09963096817955375
+    },
+    {
+      "window_id": "cap03_w0112",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.09948795195668936
+    },
+    {
+      "window_id": "cap03_w0113",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09967898949980736
+    },
+    {
+      "window_id": "cap03_w0114",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10006403317674994
+    },
+    {
+      "window_id": "cap03_w0115",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0983509817160666
+    },
+    {
+      "window_id": "cap03_w0116",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09872001828625798
+    },
+    {
+      "window_id": "cap03_w0117",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09863998275250196
+    },
+    {
+      "window_id": "cap03_w0118",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10235095396637917
+    },
+    {
+      "window_id": "cap03_w0119",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10412797564640641
+    },
+    {
+      "window_id": "cap03_w0120",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10115100303664804
+    },
+    {
+      "window_id": "cap03_w0121",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0963360071182251
+    },
+    {
+      "window_id": "cap03_w0122",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.10372797260060906
+    },
+    {
+      "window_id": "cap03_w0123",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.10249495971947908
+    },
+    {
+      "window_id": "cap03_w0124",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09958399459719658
+    },
+    {
+      "window_id": "cap03_w0125",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10070297867059708
+    },
+    {
+      "window_id": "cap03_w0126",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10004802606999874
+    },
+    {
+      "window_id": "cap03_w0127",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09947101352736354
+    },
+    {
+      "window_id": "cap03_w0128",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0996480230242014
+    },
+    {
+      "window_id": "cap03_w0129",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09766401490196586
+    },
+    {
+      "window_id": "cap03_w0130",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09639898780733347
+    },
+    {
+      "window_id": "cap03_w0131",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.09927997598424554
+    },
+    {
+      "window_id": "cap03_w0132",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10185496648773551
+    },
+    {
+      "window_id": "cap03_w0133",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10007998207584023
+    },
+    {
+      "window_id": "cap03_w0134",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1015839516185224
+    },
+    {
+      "window_id": "cap03_w0135",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10001601185649633
+    },
+    {
+      "window_id": "cap03_w0136",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09987200610339642
+    },
+    {
+      "window_id": "cap03_w0137",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.1025589881464839
+    },
+    {
+      "window_id": "cap03_w0138",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09910401422530413
+    },
+    {
+      "window_id": "cap03_w0139",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.10035099694505334
+    },
+    {
+      "window_id": "cap03_w0140",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0963360071182251
+    },
+    {
+      "window_id": "cap03_w0141",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09339198004454374
+    },
+    {
+      "window_id": "cap03_w0142",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.08444697596132755
+    },
+    {
+      "window_id": "cap03_w0143",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.03782397834584117
+    },
+    {
+      "window_id": "cap03_w0144",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.03683200338855386
+    },
+    {
+      "window_id": "cap03_w0145",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.03679998917505145
+    },
+    {
+      "window_id": "cap03_w0146",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.03600004129111767
+    },
+    {
+      "window_id": "cap03_w0147",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.03535900032147765
+    },
+    {
+      "window_id": "cap03_w0148",
+      "decision": "ACCEPT",
+      "attack_score": 0.003436426116838488,
+      "latency_ms": 0.008751987479627132
+    },
+    {
+      "window_id": "cap03_w0149",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0043199979700148106
+    },
+    {
+      "window_id": "cap03_w0150",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.00395200913771987
+    },
+    {
+      "window_id": "cap03_w0151",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0038400175981223583
+    },
+    {
+      "window_id": "cap03_w0152",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003663997631520033
+    },
+    {
+      "window_id": "cap03_w0153",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0036479905247688293
+    },
+    {
+      "window_id": "cap03_w0154",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0036159763112664223
+    },
+    {
+      "window_id": "cap03_w0155",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0036959536373615265
+    },
+    {
+      "window_id": "cap03_w0156",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003568013198673725
+    },
+    {
+      "window_id": "cap03_w0157",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.005039968527853489
+    },
+    {
+      "window_id": "cap03_w0158",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003600027412176132
+    },
+    {
+      "window_id": "cap03_w0159",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0035840203054249287
+    },
+    {
+      "window_id": "cap03_w0160",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0035679549910128117
+    },
+    {
+      "window_id": "cap03_w0161",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0036159763112664223
+    },
+    {
+      "window_id": "cap03_w0162",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0035840203054249287
+    },
+    {
+      "window_id": "cap03_w0163",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003631983418017626
+    },
+    {
+      "window_id": "cap03_w0164",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003568013198673725
+    },
+    {
+      "window_id": "cap03_w0165",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.004223955329507589
+    },
+    {
+      "window_id": "cap03_w0166",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.03257597563788295
+    },
+    {
+      "window_id": "cap03_w0167",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.06639899220317602
+    },
+    {
+      "window_id": "cap03_w0168",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.10531197767704725
+    },
+    {
+      "window_id": "cap03_w0169",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.09827199392020702
+    },
+    {
+      "window_id": "cap03_w0170",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.09790295735001564
+    },
+    {
+      "window_id": "cap03_w0171",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.09792001219466329
+    },
+    {
+      "window_id": "cap03_w0172",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09950296953320503
+    },
+    {
+      "window_id": "cap03_w0173",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09841599967330694
+    },
+    {
+      "window_id": "cap03_w0174",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09708700235933065
+    },
+    {
+      "window_id": "cap03_w0175",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.09694398613646626
+    },
+    {
+      "window_id": "cap03_w0176",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0930879614315927
+    },
+    {
+      "window_id": "cap03_w0177",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.0688149593770504
+    },
+    {
+      "window_id": "cap03_w0178",
+      "decision": "ACCEPT",
+      "attack_score": 0.003436426116838488,
+      "latency_ms": 0.025104032829403877
+    },
+    {
+      "window_id": "cap03_w0179",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003983965143561363
+    },
+    {
+      "window_id": "cap03_w0180",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003775989171117544
+    },
+    {
+      "window_id": "cap03_w0181",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.00369601184502244
+    },
+    {
+      "window_id": "cap03_w0182",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0035840203054249287
+    },
+    {
+      "window_id": "cap03_w0183",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.0034879776649177074
+    },
+    {
+      "window_id": "cap03_w0184",
+      "decision": "ACCEPT",
+      "attack_score": 0.0,
+      "latency_ms": 0.003663997631520033
+    },
+    {
+      "window_id": "cap03_w0185",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.014880031812936068
+    },
+    {
+      "window_id": "cap03_w0186",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.09867199696600437
+    },
+    {
+      "window_id": "cap03_w0187",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.10899099288508296
+    },
+    {
+      "window_id": "cap03_w0188",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.22980698850005865
+    },
+    {
+      "window_id": "cap03_w0189",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.25671900948509574
+    },
+    {
+      "window_id": "cap03_w0190",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2572149969637394
+    },
+    {
+      "window_id": "cap03_w0191",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2554870443418622
+    },
+    {
+      "window_id": "cap03_w0192",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.25113497395068407
+    },
+    {
+      "window_id": "cap03_w0193",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.254638958722353
+    },
+    {
+      "window_id": "cap03_w0194",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.25523098884150386
+    },
+    {
+      "window_id": "cap03_w0195",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.24857500102370977
+    },
+    {
+      "window_id": "cap03_w0196",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.24742295499891043
+    },
+    {
+      "window_id": "cap03_w0197",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.25451096007600427
+    },
+    {
+      "window_id": "cap03_w0198",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2511990023776889
+    },
+    {
+      "window_id": "cap03_w0199",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2513750223442912
+    },
+    {
+      "window_id": "cap03_w0200",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.24500698782503605
+    },
+    {
+      "window_id": "cap03_w0201",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.24671899154782295
+    },
+    {
+      "window_id": "cap03_w0202",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2495989901944995
+    },
+    {
+      "window_id": "cap03_w0203",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.24766300339251757
+    },
+    {
+      "window_id": "cap03_w0204",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.24636700982227921
+    },
+    {
+      "window_id": "cap03_w0205",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2444630372337997
+    },
+    {
+      "window_id": "cap03_w0206",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2487190067768097
+    },
+    {
+      "window_id": "cap03_w0207",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.24503900203853846
+    },
+    {
+      "window_id": "cap03_w0208",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.25332701625302434
+    },
+    {
+      "window_id": "cap03_w0209",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2511190250515938
+    },
+    {
+      "window_id": "cap03_w0210",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27705501997843385
+    },
+    {
+      "window_id": "cap03_w0211",
+      "decision": "ACCEPT",
+      "attack_score": 0.9123711340206185,
+      "latency_ms": 0.2691989648155868
+    },
+    {
+      "window_id": "cap03_w0212",
+      "decision": "ACCEPT",
+      "attack_score": 0.9140893470790378,
+      "latency_ms": 0.2840470406226814
+    },
+    {
+      "window_id": "cap03_w0213",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.28558296617120504
+    },
+    {
+      "window_id": "cap03_w0214",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2818549983203411
+    },
+    {
+      "window_id": "cap03_w0215",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2833909820765257
+    },
+    {
+      "window_id": "cap03_w0216",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.27871900238096714
+    },
+    {
+      "window_id": "cap03_w0217",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.28137501794844866
+    },
+    {
+      "window_id": "cap03_w0218",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.27807900914922357
+    },
+    {
+      "window_id": "cap03_w0219",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.27873500948771834
+    },
+    {
+      "window_id": "cap03_w0220",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2791029983200133
+    },
+    {
+      "window_id": "cap03_w0221",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.2874869969673455
+    },
+    {
+      "window_id": "cap03_w0222",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.27985498309135437
+    },
+    {
+      "window_id": "cap03_w0223",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.27635099831968546
+    },
+    {
+      "window_id": "cap03_w0224",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.28401502640917897
+    },
+    {
+      "window_id": "cap03_w0225",
+      "decision": "ACCEPT",
+      "attack_score": 0.6013745704467354,
+      "latency_ms": 0.27998199220746756
+    },
+    {
+      "window_id": "cap03_w0226",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.28052699053660035
+    },
+    {
+      "window_id": "cap03_w0227",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2794070169329643
+    },
+    {
+      "window_id": "cap03_w0228",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2878549857996404
+    },
+    {
+      "window_id": "cap03_w0229",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.2775189932435751
+    },
+    {
+      "window_id": "cap03_w0230",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.283486966509372
+    },
+    {
+      "window_id": "cap03_w0231",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28199900407344103
+    },
+    {
+      "window_id": "cap03_w0232",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.28174201725050807
+    },
+    {
+      "window_id": "cap03_w0233",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2772950101643801
+    },
+    {
+      "window_id": "cap03_w0234",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28310297057032585
+    },
+    {
+      "window_id": "cap03_w0235",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.28137495974078774
+    },
+    {
+      "window_id": "cap03_w0236",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2825429546646774
+    },
+    {
+      "window_id": "cap03_w0237",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2799509675242007
+    },
+    {
+      "window_id": "cap03_w0238",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2837739884853363
+    },
+    {
+      "window_id": "cap03_w0239",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2791989827528596
+    },
+    {
+      "window_id": "cap03_w0240",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27788698207587004
+    },
+    {
+      "window_id": "cap03_w0241",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.26007898850366473
+    },
+    {
+      "window_id": "cap03_w0242",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2809589495882392
+    },
+    {
+      "window_id": "cap03_w0243",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2773430314846337
+    },
+    {
+      "window_id": "cap03_w0244",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27963100001215935
+    },
+    {
+      "window_id": "cap03_w0245",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28219097293913364
+    },
+    {
+      "window_id": "cap03_w0246",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2778220223262906
+    },
+    {
+      "window_id": "cap03_w0247",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2793429885059595
+    },
+    {
+      "window_id": "cap03_w0248",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27891097124665976
+    },
+    {
+      "window_id": "cap03_w0249",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28059096075594425
+    },
+    {
+      "window_id": "cap03_w0250",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27724698884412646
+    },
+    {
+      "window_id": "cap03_w0251",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2802870003506541
+    },
+    {
+      "window_id": "cap03_w0252",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27785496786236763
+    },
+    {
+      "window_id": "cap03_w0253",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27742201928049326
+    },
+    {
+      "window_id": "cap03_w0254",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27692702133208513
+    },
+    {
+      "window_id": "cap03_w0255",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2819829969666898
+    },
+    {
+      "window_id": "cap03_w0256",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2917430247180164
+    },
+    {
+      "window_id": "cap03_w0257",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2944470033980906
+    },
+    {
+      "window_id": "cap03_w0258",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27611100813373923
+    },
+    {
+      "window_id": "cap03_w0259",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27807900914922357
+    },
+    {
+      "window_id": "cap03_w0260",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27735799085348845
+    },
+    {
+      "window_id": "cap03_w0261",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2763510565273464
+    },
+    {
+      "window_id": "cap03_w0262",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.280046951957047
+    },
+    {
+      "window_id": "cap03_w0263",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2818389912135899
+    },
+    {
+      "window_id": "cap03_w0264",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27796701760962605
+    },
+    {
+      "window_id": "cap03_w0265",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27700699865818024
+    },
+    {
+      "window_id": "cap03_w0266",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27867098106071353
+    },
+    {
+      "window_id": "cap03_w0267",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27732597663998604
+    },
+    {
+      "window_id": "cap03_w0268",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27691101422533393
+    },
+    {
+      "window_id": "cap03_w0269",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2758229966275394
+    },
+    {
+      "window_id": "cap03_w0270",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27891097124665976
+    },
+    {
+      "window_id": "cap03_w0271",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2750709536485374
+    },
+    {
+      "window_id": "cap03_w0272",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.275871017947793
+    },
+    {
+      "window_id": "cap03_w0273",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2790549769997597
+    },
+    {
+      "window_id": "cap03_w0274",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2800149959512055
+    },
+    {
+      "window_id": "cap03_w0275",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27899001725018024
+    },
+    {
+      "window_id": "cap03_w0276",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27796701760962605
+    },
+    {
+      "window_id": "cap03_w0277",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2798869973048568
+    },
+    {
+      "window_id": "cap03_w0278",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.27790298918262124
+    },
+    {
+      "window_id": "cap03_w0279",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2791349543258548
+    },
+    {
+      "window_id": "cap03_w0280",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2791350125335157
+    },
+    {
+      "window_id": "cap03_w0281",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27711899019777775
+    },
+    {
+      "window_id": "cap03_w0282",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2784300013445318
+    },
+    {
+      "window_id": "cap03_w0283",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2791829756461084
+    },
+    {
+      "window_id": "cap03_w0284",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28131098952144384
+    },
+    {
+      "window_id": "cap03_w0285",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2775990287773311
+    },
+    {
+      "window_id": "cap03_w0286",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.278335006441921
+    },
+    {
+      "window_id": "cap03_w0287",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28129498241469264
+    },
+    {
+      "window_id": "cap03_w0288",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2884470159187913
+    },
+    {
+      "window_id": "cap03_w0289",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.28332602232694626
+    },
+    {
+      "window_id": "cap03_w0290",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28206303250044584
+    },
+    {
+      "window_id": "cap03_w0291",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28287898749113083
+    },
+    {
+      "window_id": "cap03_w0292",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2758869668468833
+    },
+    {
+      "window_id": "cap03_w0293",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28215901693329215
+    },
+    {
+      "window_id": "cap03_w0294",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27871900238096714
+    },
+    {
+      "window_id": "cap03_w0295",
+      "decision": "ACCEPT",
+      "attack_score": 0.20790378006872853,
+      "latency_ms": 0.2759349881671369
+    },
+    {
+      "window_id": "cap03_w0296",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2777100307866931
+    },
+    {
+      "window_id": "cap03_w0297",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.27707102708518505
+    },
+    {
+      "window_id": "cap03_w0298",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2786549739539623
+    },
+    {
+      "window_id": "cap03_w0299",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.277662998996675
+    },
+    {
+      "window_id": "cap03_w0300",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27644698275253177
+    },
+    {
+      "window_id": "cap03_w0301",
+      "decision": "ACCEPT",
+      "attack_score": 0.20790378006872853,
+      "latency_ms": 0.27715100441128016
+    },
+    {
+      "window_id": "cap03_w0302",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28316699899733067
+    },
+    {
+      "window_id": "cap03_w0303",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2775980392470956
+    },
+    {
+      "window_id": "cap03_w0304",
+      "decision": "ACCEPT",
+      "attack_score": 0.20790378006872853,
+      "latency_ms": 0.2767029800452292
+    },
+    {
+      "window_id": "cap03_w0305",
+      "decision": "ACCEPT",
+      "attack_score": 0.8642611683848798,
+      "latency_ms": 0.283262983430177
+    },
+    {
+      "window_id": "cap03_w0306",
+      "decision": "ACCEPT",
+      "attack_score": 0.8642611683848798,
+      "latency_ms": 0.2808150020428002
+    },
+    {
+      "window_id": "cap03_w0307",
+      "decision": "ACCEPT",
+      "attack_score": 0.8642611683848798,
+      "latency_ms": 0.27635099831968546
+    },
+    {
+      "window_id": "cap03_w0308",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.3147349925711751
+    },
+    {
+      "window_id": "cap03_w0309",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2784939715638757
+    },
+    {
+      "window_id": "cap03_w0310",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27815898647531867
+    },
+    {
+      "window_id": "cap03_w0311",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27619098545983434
+    },
+    {
+      "window_id": "cap03_w0312",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2810709993354976
+    },
+    {
+      "window_id": "cap03_w0313",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27307099662721157
+    },
+    {
+      "window_id": "cap03_w0314",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2674710121937096
+    },
+    {
+      "window_id": "cap03_w0315",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.23980700643733144
+    },
+    {
+      "window_id": "cap03_w0316",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27803098782896996
+    },
+    {
+      "window_id": "cap03_w0317",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2766709658317268
+    },
+    {
+      "window_id": "cap03_w0318",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2777579938992858
+    },
+    {
+      "window_id": "cap03_w0319",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27958303689956665
+    },
+    {
+      "window_id": "cap03_w0320",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.27879903791472316
+    },
+    {
+      "window_id": "cap03_w0321",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2812149468809366
+    },
+    {
+      "window_id": "cap03_w0322",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2785110264085233
+    },
+    {
+      "window_id": "cap03_w0323",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2818549983203411
+    },
+    {
+      "window_id": "cap03_w0324",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.2777749905362725
+    },
+    {
+      "window_id": "cap03_w0325",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27732597663998604
+    },
+    {
+      "window_id": "cap03_w0326",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2811189624480903
+    },
+    {
+      "window_id": "cap03_w0327",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27889502234756947
+    },
+    {
+      "window_id": "cap03_w0328",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27799897361546755
+    },
+    {
+      "window_id": "cap03_w0329",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2867350121960044
+    },
+    {
+      "window_id": "cap03_w0330",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2818229841068387
+    },
+    {
+      "window_id": "cap03_w0331",
+      "decision": "ACCEPT",
+      "attack_score": 0.20446735395189003,
+      "latency_ms": 0.2807190176099539
+    },
+    {
+      "window_id": "cap03_w0332",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27668598340824246
+    },
+    {
+      "window_id": "cap03_w0333",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.28315099189057946
+    },
+    {
+      "window_id": "cap03_w0334",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2775990287773311
+    },
+    {
+      "window_id": "cap03_w0335",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2759030321612954
+    },
+    {
+      "window_id": "cap03_w0336",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27551903622224927
+    },
+    {
+      "window_id": "cap03_w0337",
+      "decision": "ACCEPT",
+      "attack_score": 0.8969072164948454,
+      "latency_ms": 0.28451101388782263
+    },
+    {
+      "window_id": "cap03_w0338",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28287904569879174
+    },
+    {
+      "window_id": "cap03_w0339",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27710205176845193
+    },
+    {
+      "window_id": "cap03_w0340",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2826070412993431
+    },
+    {
+      "window_id": "cap03_w0341",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2791190054267645
+    },
+    {
+      "window_id": "cap03_w0342",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2768310368992388
+    },
+    {
+      "window_id": "cap03_w0343",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27788704028353095
+    },
+    {
+      "window_id": "cap03_w0344",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28303900035098195
+    },
+    {
+      "window_id": "cap03_w0345",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27622299967333674
+    },
+    {
+      "window_id": "cap03_w0346",
+      "decision": "ACCEPT",
+      "attack_score": 0.20446735395189003,
+      "latency_ms": 0.2774070017039776
+    },
+    {
+      "window_id": "cap03_w0347",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2817580243572593
+    },
+    {
+      "window_id": "cap03_w0348",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.28127903351560235
+    },
+    {
+      "window_id": "cap03_w0349",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27630297699943185
+    },
+    {
+      "window_id": "cap03_w0350",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2767510013654828
+    },
+    {
+      "window_id": "cap03_w0351",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.3851020010188222
+    },
+    {
+      "window_id": "cap03_w0352",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27788698207587004
+    },
+    {
+      "window_id": "cap03_w0353",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27446297463029623
+    },
+    {
+      "window_id": "cap03_w0354",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2800789661705494
+    },
+    {
+      "window_id": "cap03_w0355",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2791830338537693
+    },
+    {
+      "window_id": "cap03_w0356",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2781430375762284
+    },
+    {
+      "window_id": "cap03_w0357",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2790550352074206
+    },
+    {
+      "window_id": "cap03_w0358",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2801590017043054
+    },
+    {
+      "window_id": "cap03_w0359",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27548702200874686
+    },
+    {
+      "window_id": "cap03_w0360",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.280126987490803
+    },
+    {
+      "window_id": "cap03_w0361",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2801590017043054
+    },
+    {
+      "window_id": "cap03_w0362",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2768149715848267
+    },
+    {
+      "window_id": "cap03_w0363",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27889502234756947
+    },
+    {
+      "window_id": "cap03_w0364",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27975899865850806
+    },
+    {
+      "window_id": "cap03_w0365",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2821580274030566
+    },
+    {
+      "window_id": "cap03_w0366",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2767510013654828
+    },
+    {
+      "window_id": "cap03_w0367",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27793500339612365
+    },
+    {
+      "window_id": "cap03_w0368",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.28388696955516934
+    },
+    {
+      "window_id": "cap03_w0369",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27950300136581063
+    },
+    {
+      "window_id": "cap03_w0370",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27708697598427534
+    },
+    {
+      "window_id": "cap03_w0371",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27692702133208513
+    },
+    {
+      "window_id": "cap03_w0372",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27748598949983716
+    },
+    {
+      "window_id": "cap03_w0373",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2799510257318616
+    },
+    {
+      "window_id": "cap03_w0374",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2759509952738881
+    },
+    {
+      "window_id": "cap03_w0375",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28121500508859754
+    },
+    {
+      "window_id": "cap03_w0376",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2768150297924876
+    },
+    {
+      "window_id": "cap03_w0377",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2759190392680466
+    },
+    {
+      "window_id": "cap03_w0378",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27724698884412646
+    },
+    {
+      "window_id": "cap03_w0379",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.279903004411608
+    },
+    {
+      "window_id": "cap03_w0380",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2741909702308476
+    },
+    {
+      "window_id": "cap03_w0381",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27377496007829905
+    },
+    {
+      "window_id": "cap03_w0382",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.28147100238129497
+    },
+    {
+      "window_id": "cap03_w0383",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27961499290540814
+    },
+    {
+      "window_id": "cap03_w0384",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27860701084136963
+    },
+    {
+      "window_id": "cap03_w0385",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2785109682008624
+    },
+    {
+      "window_id": "cap03_w0386",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28294301591813564
+    },
+    {
+      "window_id": "cap03_w0387",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27590198442339897
+    },
+    {
+      "window_id": "cap03_w0388",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27860701084136963
+    },
+    {
+      "window_id": "cap03_w0389",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27630303520709276
+    },
+    {
+      "window_id": "cap03_w0390",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2792149898596108
+    },
+    {
+      "window_id": "cap03_w0391",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.28203101828694344
+    },
+    {
+      "window_id": "cap03_w0392",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27545500779524446
+    },
+    {
+      "window_id": "cap03_w0393",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2809109864756465
+    },
+    {
+      "window_id": "cap03_w0394",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2779340138658881
+    },
+    {
+      "window_id": "cap03_w0395",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2774550230242312
+    },
+    {
+      "window_id": "cap03_w0396",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2749429550021887
+    },
+    {
+      "window_id": "cap03_w0397",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2798869973048568
+    },
+    {
+      "window_id": "cap03_w0398",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27724698884412646
+    },
+    {
+      "window_id": "cap03_w0399",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27897499967366457
+    },
+    {
+      "window_id": "cap03_w0400",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27975899865850806
+    },
+    {
+      "window_id": "cap03_w0401",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27721497463062406
+    },
+    {
+      "window_id": "cap03_w0402",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27553399559110403
+    },
+    {
+      "window_id": "cap03_w0403",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.277358980383724
+    },
+    {
+      "window_id": "cap03_w0404",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2766550169326365
+    },
+    {
+      "window_id": "cap03_w0405",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2775350003503263
+    },
+    {
+      "window_id": "cap03_w0406",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27815898647531867
+    },
+    {
+      "window_id": "cap03_w0407",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.3043990000151098
+    },
+    {
+      "window_id": "cap03_w0408",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27742196107283235
+    },
+    {
+      "window_id": "cap03_w0409",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2789910067804158
+    },
+    {
+      "window_id": "cap03_w0410",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27615897124633193
+    },
+    {
+      "window_id": "cap03_w0411",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27807900914922357
+    },
+    {
+      "window_id": "cap03_w0412",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27726299595087767
+    },
+    {
+      "window_id": "cap03_w0413",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2783829695545137
+    },
+    {
+      "window_id": "cap03_w0414",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2807669807225466
+    },
+    {
+      "window_id": "cap03_w0415",
+      "decision": "ATTACK",
+      "attack_score": 0.9914089347079038,
+      "latency_ms": 0.27713505551218987
+    },
+    {
+      "window_id": "cap03_w0416",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27710205176845193
+    },
+    {
+      "window_id": "cap03_w0417",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27713499730452895
+    },
+    {
+      "window_id": "cap03_w0418",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2818389912135899
+    },
+    {
+      "window_id": "cap03_w0419",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27801498072221875
+    },
+    {
+      "window_id": "cap03_w0420",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.276767008472234
+    },
+    {
+      "window_id": "cap03_w0421",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27883105212822556
+    },
+    {
+      "window_id": "cap03_w0422",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27707096887752414
+    },
+    {
+      "window_id": "cap03_w0423",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27556600980460644
+    },
+    {
+      "window_id": "cap03_w0424",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2767030382528901
+    },
+    {
+      "window_id": "cap03_w0425",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27942302403971553
+    },
+    {
+      "window_id": "cap03_w0426",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2767510013654828
+    },
+    {
+      "window_id": "cap03_w0427",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2784469979815185
+    },
+    {
+      "window_id": "cap03_w0428",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2802709932439029
+    },
+    {
+      "window_id": "cap03_w0429",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2766069956123829
+    },
+    {
+      "window_id": "cap03_w0430",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27742201928049326
+    },
+    {
+      "window_id": "cap03_w0431",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2760629868134856
+    },
+    {
+      "window_id": "cap03_w0432",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27806300204247236
+    },
+    {
+      "window_id": "cap03_w0433",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2768149715848267
+    },
+    {
+      "window_id": "cap03_w0434",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27534301625564694
+    },
+    {
+      "window_id": "cap03_w0435",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27795095229521394
+    },
+    {
+      "window_id": "cap03_w0436",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27734297327697277
+    },
+    {
+      "window_id": "cap03_w0437",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28155097970739007
+    },
+    {
+      "window_id": "cap03_w0438",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2793900202959776
+    },
+    {
+      "window_id": "cap03_w0439",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2807670389302075
+    },
+    {
+      "window_id": "cap03_w0440",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27795101050287485
+    },
+    {
+      "window_id": "cap03_w0441",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27807900914922357
+    },
+    {
+      "window_id": "cap03_w0442",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2768790000118315
+    },
+    {
+      "window_id": "cap03_w0443",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.281022978015244
+    },
+    {
+      "window_id": "cap03_w0444",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28043100610375404
+    },
+    {
+      "window_id": "cap03_w0445",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.29090995667502284
+    },
+    {
+      "window_id": "cap03_w0446",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2802389790304005
+    },
+    {
+      "window_id": "cap03_w0447",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2783829695545137
+    },
+    {
+      "window_id": "cap03_w0448",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2816150081343949
+    },
+    {
+      "window_id": "cap03_w0449",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2784790121950209
+    },
+    {
+      "window_id": "cap03_w0450",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28116704197600484
+    },
+    {
+      "window_id": "cap03_w0451",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2764150267466903
+    },
+    {
+      "window_id": "cap03_w0452",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2779019996523857
+    },
+    {
+      "window_id": "cap03_w0453",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27977500576525927
+    },
+    {
+      "window_id": "cap03_w0454",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.27847895398736
+    },
+    {
+      "window_id": "cap03_w0455",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2774070017039776
+    },
+    {
+      "window_id": "cap05_w0000",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18060696311295033
+    },
+    {
+      "window_id": "cap05_w0001",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.11467200238257647
+    },
+    {
+      "window_id": "cap05_w0002",
+      "decision": "ACCEPT",
+      "attack_score": 0.9261168384879725,
+      "latency_ms": 0.10671897325664759
+    },
+    {
+      "window_id": "cap05_w0003",
+      "decision": "ACCEPT",
+      "attack_score": 0.20446735395189003,
+      "latency_ms": 0.10358402505517006
+    },
+    {
+      "window_id": "cap05_w0004",
+      "decision": "ACCEPT",
+      "attack_score": 0.013745704467353952,
+      "latency_ms": 0.10158302029594779
+    },
+    {
+      "window_id": "cap05_w0005",
+      "decision": "ACCEPT",
+      "attack_score": 0.03951890034364261,
+      "latency_ms": 0.10612799087539315
+    },
+    {
+      "window_id": "cap05_w0006",
+      "decision": "ACCEPT",
+      "attack_score": 0.03951890034364261,
+      "latency_ms": 0.10051199933513999
+    },
+    {
+      "window_id": "cap05_w0007",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.10228698374703526
+    },
+    {
+      "window_id": "cap05_w0008",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10073598241433501
+    },
+    {
+      "window_id": "cap05_w0009",
+      "decision": "ACCEPT",
+      "attack_score": 0.013745704467353952,
+      "latency_ms": 0.10030297562479973
+    },
+    {
+      "window_id": "cap05_w0010",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.10249600745737553
+    },
+    {
+      "window_id": "cap05_w0011",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10361499153077602
+    },
+    {
+      "window_id": "cap05_w0012",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.10243203723803163
+    },
+    {
+      "window_id": "cap05_w0013",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10036805178970098
+    },
+    {
+      "window_id": "cap05_w0014",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.09972701082006097
+    },
+    {
+      "window_id": "cap05_w0015",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.0998239847831428
+    },
+    {
+      "window_id": "cap05_w0016",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.09987101657316089
+    },
+    {
+      "window_id": "cap05_w0017",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10184000711888075
+    },
+    {
+      "window_id": "cap05_w0018",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.10035099694505334
+    },
+    {
+      "window_id": "cap05_w0019",
+      "decision": "ACCEPT",
+      "attack_score": 0.03608247422680412,
+      "latency_ms": 0.10025600204244256
+    },
+    {
+      "window_id": "cap05_w0020",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2368949935771525
+    },
+    {
+      "window_id": "cap05_w0021",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.24982297327369452
+    },
+    {
+      "window_id": "cap05_w0022",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.26451097801327705
+    },
+    {
+      "window_id": "cap05_w0023",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.2866869908757508
+    },
+    {
+      "window_id": "cap05_w0024",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2861429820768535
+    },
+    {
+      "window_id": "cap05_w0025",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2849589800462127
+    },
+    {
+      "window_id": "cap05_w0026",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2852950128726661
+    },
+    {
+      "window_id": "cap05_w0027",
+      "decision": "ACCEPT",
+      "attack_score": 0.9140893470790378,
+      "latency_ms": 0.2851670142263174
+    },
+    {
+      "window_id": "cap05_w0028",
+      "decision": "ACCEPT",
+      "attack_score": 0.11683848797250859,
+      "latency_ms": 0.277582963462919
+    },
+    {
+      "window_id": "cap05_w0029",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27868698816746473
+    },
+    {
+      "window_id": "cap05_w0030",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27902296278625727
+    },
+    {
+      "window_id": "cap05_w0031",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.28236699290573597
+    },
+    {
+      "window_id": "cap05_w0032",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27847796445712447
+    },
+    {
+      "window_id": "cap05_w0033",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27799897361546755
+    },
+    {
+      "window_id": "cap05_w0034",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.28486299561336637
+    },
+    {
+      "window_id": "cap05_w0035",
+      "decision": "ACCEPT",
+      "attack_score": 0.8556701030927835,
+      "latency_ms": 0.2790869912132621
+    },
+    {
+      "window_id": "cap05_w0036",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2857749932445586
+    },
+    {
+      "window_id": "cap05_w0037",
+      "decision": "ACCEPT",
+      "attack_score": 0.9123711340206185,
+      "latency_ms": 0.27975899865850806
+    },
+    {
+      "window_id": "cap05_w0038",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2817430067807436
+    },
+    {
+      "window_id": "cap05_w0039",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28074998408555984
+    },
+    {
+      "window_id": "cap05_w0040",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2810549922287464
+    },
+    {
+      "window_id": "cap05_w0041",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.28055894654244184
+    },
+    {
+      "window_id": "cap05_w0042",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27809501625597477
+    },
+    {
+      "window_id": "cap05_w0043",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2800470101647079
+    },
+    {
+      "window_id": "cap05_w0044",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27705501997843385
+    },
+    {
+      "window_id": "cap05_w0045",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27854304062202573
+    },
+    {
+      "window_id": "cap05_w0046",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.2785100368782878
+    },
+    {
+      "window_id": "cap05_w0047",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.27897499967366457
+    },
+    {
+      "window_id": "cap05_w0048",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.28067099628970027
+    },
+    {
+      "window_id": "cap05_w0049",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.2798709901981056
+    },
+    {
+      "window_id": "cap05_w0050",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.3047189675271511
+    },
+    {
+      "window_id": "cap05_w0051",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.28372701490297914
+    },
+    {
+      "window_id": "cap05_w0052",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.28599798679351807
+    },
+    {
+      "window_id": "cap05_w0053",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.28193503385409713
+    },
+    {
+      "window_id": "cap05_w0054",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.28070295229554176
+    },
+    {
+      "window_id": "cap05_w0055",
+      "decision": "ACCEPT",
+      "attack_score": 0.9278350515463918,
+      "latency_ms": 0.28404698241502047
+    },
+    {
+      "window_id": "cap05_w0056",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.2802229719236493
+    },
+    {
+      "window_id": "cap05_w0057",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.27971097733825445
+    },
+    {
+      "window_id": "cap05_w0058",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.2785270335152745
+    },
+    {
+      "window_id": "cap05_w0059",
+      "decision": "ACCEPT",
+      "attack_score": 0.9278350515463918,
+      "latency_ms": 0.27994997799396515
+    },
+    {
+      "window_id": "cap05_w0060",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2794070169329643
+    },
+    {
+      "window_id": "cap05_w0061",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.27788704028353095
+    },
+    {
+      "window_id": "cap05_w0062",
+      "decision": "ACCEPT",
+      "attack_score": 0.9278350515463918,
+      "latency_ms": 0.27964700711891055
+    },
+    {
+      "window_id": "cap05_w0063",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.27891102945432067
+    },
+    {
+      "window_id": "cap05_w0064",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.277358980383724
+    },
+    {
+      "window_id": "cap05_w0065",
+      "decision": "ACCEPT",
+      "attack_score": 0.929553264604811,
+      "latency_ms": 0.2790709841065109
+    },
+    {
+      "window_id": "cap05_w0066",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2820939989760518
+    },
+    {
+      "window_id": "cap05_w0067",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.2790709841065109
+    },
+    {
+      "window_id": "cap05_w0068",
+      "decision": "ACCEPT",
+      "attack_score": 0.9553264604810997,
+      "latency_ms": 0.2792630111798644
+    },
+    {
+      "window_id": "cap05_w0069",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.27979101287201047
+    },
+    {
+      "window_id": "cap05_w0070",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2802389790304005
+    },
+    {
+      "window_id": "cap05_w0071",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27887901524081826
+    },
+    {
+      "window_id": "cap05_w0072",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27975899865850806
+    },
+    {
+      "window_id": "cap05_w0073",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.27916597900912166
+    },
+    {
+      "window_id": "cap05_w0074",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27977494755759835
+    },
+    {
+      "window_id": "cap05_w0075",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2792310551740229
+    },
+    {
+      "window_id": "cap05_w0076",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2810549922287464
+    },
+    {
+      "window_id": "cap05_w0077",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27809495804831386
+    },
+    {
+      "window_id": "cap05_w0078",
+      "decision": "ACCEPT",
+      "attack_score": 0.9261168384879725,
+      "latency_ms": 0.2815990010276437
+    },
+    {
+      "window_id": "cap05_w0079",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2807669807225466
+    },
+    {
+      "window_id": "cap05_w0080",
+      "decision": "ACCEPT",
+      "attack_score": 0.9123711340206185,
+      "latency_ms": 0.2828779979608953
+    },
+    {
+      "window_id": "cap05_w0081",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2802709932439029
+    },
+    {
+      "window_id": "cap05_w0082",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.28710300102829933
+    },
+    {
+      "window_id": "cap05_w0083",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2841749810613692
+    },
+    {
+      "window_id": "cap05_w0084",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2809270517900586
+    },
+    {
+      "window_id": "cap05_w0085",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.27895899256691337
+    },
+    {
+      "window_id": "cap05_w0086",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28195104096084833
+    },
+    {
+      "window_id": "cap05_w0087",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.28513401048257947
+    },
+    {
+      "window_id": "cap05_w0088",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2791989827528596
+    },
+    {
+      "window_id": "cap05_w0089",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2793750027194619
+    },
+    {
+      "window_id": "cap05_w0090",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28223899425938725
+    },
+    {
+      "window_id": "cap05_w0091",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27719902573153377
+    },
+    {
+      "window_id": "cap05_w0092",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27790298918262124
+    },
+    {
+      "window_id": "cap05_w0093",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.27993397088721395
+    },
+    {
+      "window_id": "cap05_w0094",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.28169498546049
+    },
+    {
+      "window_id": "cap05_w0095",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.281022978015244
+    },
+    {
+      "window_id": "cap05_w0096",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2794709871523082
+    },
+    {
+      "window_id": "cap05_w0097",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.27953501557931304
+    },
+    {
+      "window_id": "cap05_w0098",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2809909638017416
+    },
+    {
+      "window_id": "cap05_w0099",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2815669868141413
+    },
+    {
+      "window_id": "cap05_w0100",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.27788698207587004
+    },
+    {
+      "window_id": "cap05_w0101",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2807190176099539
+    },
+    {
+      "window_id": "cap05_w0102",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27889502234756947
+    },
+    {
+      "window_id": "cap05_w0103",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.27795101050287485
+    },
+    {
+      "window_id": "cap05_w0104",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2861429820768535
+    },
+    {
+      "window_id": "cap05_w0105",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2819829969666898
+    },
+    {
+      "window_id": "cap05_w0106",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2786229597404599
+    },
+    {
+      "window_id": "cap05_w0107",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2793900202959776
+    },
+    {
+      "window_id": "cap05_w0108",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28059101896360517
+    },
+    {
+      "window_id": "cap05_w0109",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2798070199787617
+    },
+    {
+      "window_id": "cap05_w0110",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27619104366749525
+    },
+    {
+      "window_id": "cap05_w0111",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.28315099189057946
+    },
+    {
+      "window_id": "cap05_w0112",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28055900475010276
+    },
+    {
+      "window_id": "cap05_w0113",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27953501557931304
+    },
+    {
+      "window_id": "cap05_w0114",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2796620246954262
+    },
+    {
+      "window_id": "cap05_w0115",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.2834709594026208
+    },
+    {
+      "window_id": "cap05_w0116",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27876702370122075
+    },
+    {
+      "window_id": "cap05_w0117",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.2809750149026513
+    },
+    {
+      "window_id": "cap05_w0118",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28379098512232304
+    },
+    {
+      "window_id": "cap05_w0119",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28243096312507987
+    },
+    {
+      "window_id": "cap05_w0120",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2810870064422488
+    },
+    {
+      "window_id": "cap05_w0121",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28083001961931586
+    },
+    {
+      "window_id": "cap05_w0122",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2817909698933363
+    },
+    {
+      "window_id": "cap05_w0123",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.27948699425905943
+    },
+    {
+      "window_id": "cap05_w0124",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2799190115183592
+    },
+    {
+      "window_id": "cap05_w0125",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2852629986591637
+    },
+    {
+      "window_id": "cap05_w0126",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.27868698816746473
+    },
+    {
+      "window_id": "cap05_w0127",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27948699425905943
+    },
+    {
+      "window_id": "cap05_w0128",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27966301422566175
+    },
+    {
+      "window_id": "cap05_w0129",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.284239009488374
+    },
+    {
+      "window_id": "cap05_w0130",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.27955102268606424
+    },
+    {
+      "window_id": "cap05_w0131",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2782869851216674
+    },
+    {
+      "window_id": "cap05_w0132",
+      "decision": "ACCEPT",
+      "attack_score": 0.9261168384879725,
+      "latency_ms": 0.30844699358567595
+    },
+    {
+      "window_id": "cap05_w0133",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2783669624477625
+    },
+    {
+      "window_id": "cap05_w0134",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27746998239308596
+    },
+    {
+      "window_id": "cap05_w0135",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27959898579865694
+    },
+    {
+      "window_id": "cap05_w0136",
+      "decision": "ACCEPT",
+      "attack_score": 0.9261168384879725,
+      "latency_ms": 0.28399901930242777
+    },
+    {
+      "window_id": "cap05_w0137",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27803104603663087
+    },
+    {
+      "window_id": "cap05_w0138",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.28243096312507987
+    },
+    {
+      "window_id": "cap05_w0139",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.28207903960719705
+    },
+    {
+      "window_id": "cap05_w0140",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27903896989300847
+    },
+    {
+      "window_id": "cap05_w0141",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27635000878944993
+    },
+    {
+      "window_id": "cap05_w0142",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27884700102731586
+    },
+    {
+      "window_id": "cap05_w0143",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28060702607035637
+    },
+    {
+      "window_id": "cap05_w0144",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27966301422566175
+    },
+    {
+      "window_id": "cap05_w0145",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2793269813992083
+    },
+    {
+      "window_id": "cap05_w0146",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2825270057655871
+    },
+    {
+      "window_id": "cap05_w0147",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27795101050287485
+    },
+    {
+      "window_id": "cap05_w0148",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28307095635682344
+    },
+    {
+      "window_id": "cap05_w0149",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.3148629912175238
+    },
+    {
+      "window_id": "cap05_w0150",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2845429698936641
+    },
+    {
+      "window_id": "cap05_w0151",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2784310490824282
+    },
+    {
+      "window_id": "cap05_w0152",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2764950040727854
+    },
+    {
+      "window_id": "cap05_w0153",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.28063898207619786
+    },
+    {
+      "window_id": "cap05_w0154",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27670199051499367
+    },
+    {
+      "window_id": "cap05_w0155",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2776309847831726
+    },
+    {
+      "window_id": "cap05_w0156",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2773270243778825
+    },
+    {
+      "window_id": "cap05_w0157",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2810709993354976
+    },
+    {
+      "window_id": "cap05_w0158",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2764789969660342
+    },
+    {
+      "window_id": "cap05_w0159",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2800630172714591
+    },
+    {
+      "window_id": "cap05_w0160",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.2844789996743202
+    },
+    {
+      "window_id": "cap05_w0161",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.2792470040731132
+    },
+    {
+      "window_id": "cap05_w0162",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.2789430436678231
+    },
+    {
+      "window_id": "cap05_w0163",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2781910006888211
+    },
+    {
+      "window_id": "cap05_w0164",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28139102505519986
+    },
+    {
+      "window_id": "cap05_w0165",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27950300136581063
+    },
+    {
+      "window_id": "cap05_w0166",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27961499290540814
+    },
+    {
+      "window_id": "cap05_w0167",
+      "decision": "ACCEPT",
+      "attack_score": 0.8556701030927835,
+      "latency_ms": 0.2859510132111609
+    },
+    {
+      "window_id": "cap05_w0168",
+      "decision": "ACCEPT",
+      "attack_score": 0.8556701030927835,
+      "latency_ms": 0.2787020057439804
+    },
+    {
+      "window_id": "cap05_w0169",
+      "decision": "ACCEPT",
+      "attack_score": 0.2027491408934708,
+      "latency_ms": 0.27636700542643666
+    },
+    {
+      "window_id": "cap05_w0170",
+      "decision": "ACCEPT",
+      "attack_score": 0.8556701030927835,
+      "latency_ms": 0.2773430314846337
+    },
+    {
+      "window_id": "cap05_w0171",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28281501727178693
+    },
+    {
+      "window_id": "cap05_w0172",
+      "decision": "ACCEPT",
+      "attack_score": 0.8591065292096219,
+      "latency_ms": 0.27897499967366457
+    },
+    {
+      "window_id": "cap05_w0173",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2793750027194619
+    },
+    {
+      "window_id": "cap05_w0174",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2836619969457388
+    },
+    {
+      "window_id": "cap05_w0175",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28131098952144384
+    },
+    {
+      "window_id": "cap05_w0176",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27887901524081826
+    },
+    {
+      "window_id": "cap05_w0177",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2783029922284186
+    },
+    {
+      "window_id": "cap05_w0178",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.28230296447873116
+    },
+    {
+      "window_id": "cap05_w0179",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27873500948771834
+    },
+    {
+      "window_id": "cap05_w0180",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2792949671857059
+    },
+    {
+      "window_id": "cap05_w0181",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28494297293946147
+    },
+    {
+      "window_id": "cap05_w0182",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.28107105754315853
+    },
+    {
+      "window_id": "cap05_w0183",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28212694451212883
+    },
+    {
+      "window_id": "cap05_w0184",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2783029922284186
+    },
+    {
+      "window_id": "cap05_w0185",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2858869847841561
+    },
+    {
+      "window_id": "cap05_w0186",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27798296650871634
+    },
+    {
+      "window_id": "cap05_w0187",
+      "decision": "ACCEPT",
+      "attack_score": 0.2027491408934708,
+      "latency_ms": 0.27868698816746473
+    },
+    {
+      "window_id": "cap05_w0188",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.281214015558362
+    },
+    {
+      "window_id": "cap05_w0189",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.27867098106071353
+    },
+    {
+      "window_id": "cap05_w0190",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2781749935820699
+    },
+    {
+      "window_id": "cap05_w0191",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2816469641402364
+    },
+    {
+      "window_id": "cap05_w0192",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2825109986588359
+    },
+    {
+      "window_id": "cap05_w0193",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27715100441128016
+    },
+    {
+      "window_id": "cap05_w0194",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27809501625597477
+    },
+    {
+      "window_id": "cap05_w0195",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2821899834088981
+    },
+    {
+      "window_id": "cap05_w0196",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2818070352077484
+    },
+    {
+      "window_id": "cap05_w0197",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28115103486925364
+    },
+    {
+      "window_id": "cap05_w0198",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27785502607002854
+    },
+    {
+      "window_id": "cap05_w0199",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2773270243778825
+    },
+    {
+      "window_id": "cap05_w0200",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27623900678008795
+    },
+    {
+      "window_id": "cap05_w0201",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27715100441128016
+    },
+    {
+      "window_id": "cap05_w0202",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.28090999694541097
+    },
+    {
+      "window_id": "cap05_w0203",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27639901963993907
+    },
+    {
+      "window_id": "cap05_w0204",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.27863902505487204
+    },
+    {
+      "window_id": "cap05_w0205",
+      "decision": "ACCEPT",
+      "attack_score": 0.12027491408934708,
+      "latency_ms": 0.2765110111795366
+    },
+    {
+      "window_id": "cap05_w0206",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28391904197633266
+    },
+    {
+      "window_id": "cap05_w0207",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27958297869190574
+    },
+    {
+      "window_id": "cap05_w0208",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2775350003503263
+    },
+    {
+      "window_id": "cap05_w0209",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28036697767674923
+    },
+    {
+      "window_id": "cap05_w0210",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.28006196953356266
+    },
+    {
+      "window_id": "cap05_w0211",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27811096515506506
+    },
+    {
+      "window_id": "cap05_w0212",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2800149959512055
+    },
+    {
+      "window_id": "cap05_w0213",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28150295838713646
+    },
+    {
+      "window_id": "cap05_w0214",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.282671011518687
+    },
+    {
+      "window_id": "cap05_w0215",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27790298918262124
+    },
+    {
+      "window_id": "cap05_w0216",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.277774001006037
+    },
+    {
+      "window_id": "cap05_w0217",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27777504874393344
+    },
+    {
+      "window_id": "cap05_w0218",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.277662998996675
+    },
+    {
+      "window_id": "cap05_w0219",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.2797430497594178
+    },
+    {
+      "window_id": "cap05_w0220",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2801110385917127
+    },
+    {
+      "window_id": "cap05_w0221",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2791350125335157
+    },
+    {
+      "window_id": "cap05_w0222",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2810549922287464
+    },
+    {
+      "window_id": "cap05_w0223",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2800949732773006
+    },
+    {
+      "window_id": "cap05_w0224",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.28098997427150607
+    },
+    {
+      "window_id": "cap05_w0225",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2769269631244242
+    },
+    {
+      "window_id": "cap05_w0226",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.27625501388683915
+    },
+    {
+      "window_id": "cap05_w0227",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2834229962900281
+    },
+    {
+      "window_id": "cap05_w0228",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.278254970908165
+    },
+    {
+      "window_id": "cap05_w0229",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27977500576525927
+    },
+    {
+      "window_id": "cap05_w0230",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2781270304694772
+    },
+    {
+      "window_id": "cap05_w0231",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2813099999912083
+    },
+    {
+      "window_id": "cap05_w0232",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2793910098262131
+    },
+    {
+      "window_id": "cap05_w0233",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2918550162576139
+    },
+    {
+      "window_id": "cap05_w0234",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.28308702167123556
+    },
+    {
+      "window_id": "cap05_w0235",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2794070169329643
+    },
+    {
+      "window_id": "cap05_w0236",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.27884700102731586
+    },
+    {
+      "window_id": "cap05_w0237",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.2803980023600161
+    },
+    {
+      "window_id": "cap05_w0238",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.28119899798184633
+    },
+    {
+      "window_id": "cap05_w0239",
+      "decision": "ACCEPT",
+      "attack_score": 0.9261168384879725,
+      "latency_ms": 0.27985498309135437
+    },
+    {
+      "window_id": "cap05_w0240",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.2781590446829796
+    },
+    {
+      "window_id": "cap05_w0241",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.2854389604181051
+    },
+    {
+      "window_id": "cap05_w0242",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.278254970908165
+    },
+    {
+      "window_id": "cap05_w0243",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.27902296278625727
+    },
+    {
+      "window_id": "cap05_w0244",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2800310030579567
+    },
+    {
+      "window_id": "cap05_w0245",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2827819553203881
+    },
+    {
+      "window_id": "cap05_w0246",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28135901084169745
+    },
+    {
+      "window_id": "cap05_w0247",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.27809501625597477
+    },
+    {
+      "window_id": "cap05_w0248",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.3107029478996992
+    },
+    {
+      "window_id": "cap05_w0249",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2800629590637982
+    },
+    {
+      "window_id": "cap05_w0250",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2805099938996136
+    },
+    {
+      "window_id": "cap05_w0251",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.27966301422566175
+    },
+    {
+      "window_id": "cap05_w0252",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.28147100238129497
+    },
+    {
+      "window_id": "cap05_w0253",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2795349573716521
+    },
+    {
+      "window_id": "cap05_w0254",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2759029739536345
+    },
+    {
+      "window_id": "cap05_w0255",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.280207023024559
+    },
+    {
+      "window_id": "cap05_w0256",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.2784790121950209
+    },
+    {
+      "window_id": "cap05_w0257",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.27967902133241296
+    },
+    {
+      "window_id": "cap05_w0258",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.27801503892987967
+    },
+    {
+      "window_id": "cap05_w0259",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.28131104772910476
+    },
+    {
+      "window_id": "cap05_w0260",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.27868704637512565
+    },
+    {
+      "window_id": "cap05_w0261",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.27727900305762887
+    },
+    {
+      "window_id": "cap05_w0262",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2799990470521152
+    },
+    {
+      "window_id": "cap05_w0263",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27873500948771834
+    },
+    {
+      "window_id": "cap05_w0264",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2783829695545137
+    },
+    {
+      "window_id": "cap05_w0265",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.27710304129868746
+    },
+    {
+      "window_id": "cap05_w0266",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2817269996739924
+    },
+    {
+      "window_id": "cap05_w0267",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.2784949610941112
+    },
+    {
+      "window_id": "cap05_w0268",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2807030105032027
+    },
+    {
+      "window_id": "cap05_w0269",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.28057501185685396
+    },
+    {
+      "window_id": "cap05_w0270",
+      "decision": "ACCEPT",
+      "attack_score": 0.9587628865979382,
+      "latency_ms": 0.28054299764335155
+    },
+    {
+      "window_id": "cap05_w0271",
+      "decision": "ACCEPT",
+      "attack_score": 0.8883161512027491,
+      "latency_ms": 0.2775350003503263
+    },
+    {
+      "window_id": "cap05_w0272",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.27991802198812366
+    },
+    {
+      "window_id": "cap05_w0273",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28036703588441014
+    },
+    {
+      "window_id": "cap05_w0274",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27883099392056465
+    },
+    {
+      "window_id": "cap05_w0275",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28289505280554295
+    },
+    {
+      "window_id": "cap05_w0276",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2828629803843796
+    },
+    {
+      "window_id": "cap05_w0277",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.276767008472234
+    },
+    {
+      "window_id": "cap05_w0278",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27855904772877693
+    },
+    {
+      "window_id": "cap05_w0279",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27867098106071353
+    },
+    {
+      "window_id": "cap05_w0280",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.2801109803840518
+    },
+    {
+      "window_id": "cap05_w0281",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2781270304694772
+    },
+    {
+      "window_id": "cap05_w0282",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.277358980383724
+    },
+    {
+      "window_id": "cap05_w0283",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27892697835341096
+    },
+    {
+      "window_id": "cap05_w0284",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28139102505519986
+    },
+    {
+      "window_id": "cap05_w0285",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27953501557931304
+    },
+    {
+      "window_id": "cap05_w0286",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28065399965271354
+    },
+    {
+      "window_id": "cap05_w0287",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.28113502776250243
+    },
+    {
+      "window_id": "cap05_w0288",
+      "decision": "ACCEPT",
+      "attack_score": 0.915807560137457,
+      "latency_ms": 0.279007013887167
+    },
+    {
+      "window_id": "cap05_w0289",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2801590017043054
+    },
+    {
+      "window_id": "cap05_w0290",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.28657499933615327
+    },
+    {
+      "window_id": "cap05_w0291",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27964694891124964
+    },
+    {
+      "window_id": "cap05_w0292",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27723098173737526
+    },
+    {
+      "window_id": "cap05_w0293",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.28054299764335155
+    },
+    {
+      "window_id": "cap05_w0294",
+      "decision": "ACCEPT",
+      "attack_score": 0.9209621993127147,
+      "latency_ms": 0.2826389973051846
+    },
+    {
+      "window_id": "cap05_w0295",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.28121500508859754
+    },
+    {
+      "window_id": "cap05_w0296",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.27815898647531867
+    },
+    {
+      "window_id": "cap05_w0297",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28316699899733067
+    },
+    {
+      "window_id": "cap05_w0298",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.278111023362726
+    },
+    {
+      "window_id": "cap05_w0299",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27897499967366457
+    },
+    {
+      "window_id": "cap05_w0300",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2779660280793905
+    },
+    {
+      "window_id": "cap05_w0301",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.2815829939208925
+    },
+    {
+      "window_id": "cap05_w0302",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.27815898647531867
+    },
+    {
+      "window_id": "cap05_w0303",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.27723098173737526
+    },
+    {
+      "window_id": "cap05_w0304",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.28214295161888003
+    },
+    {
+      "window_id": "cap05_w0305",
+      "decision": "ACCEPT",
+      "attack_score": 0.8986254295532646,
+      "latency_ms": 0.2819030196405947
+    },
+    {
+      "window_id": "cap05_w0306",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.2894380013458431
+    },
+    {
+      "window_id": "cap05_w0307",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.27799897361546755
+    },
+    {
+      "window_id": "cap05_w0308",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.2816630294546485
+    },
+    {
+      "window_id": "cap05_w0309",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.27889502234756947
+    },
+    {
+      "window_id": "cap05_w0310",
+      "decision": "ACCEPT",
+      "attack_score": 0.2027491408934708,
+      "latency_ms": 0.27705501997843385
+    },
+    {
+      "window_id": "cap05_w0311",
+      "decision": "ACCEPT",
+      "attack_score": 0.9123711340206185,
+      "latency_ms": 0.2785910037346184
+    },
+    {
+      "window_id": "cap05_w0312",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.20726298680528998
+    },
+    {
+      "window_id": "cap05_w0313",
+      "decision": "ACCEPT",
+      "attack_score": 0.8573883161512027,
+      "latency_ms": 0.19009498646482825
+    },
+    {
+      "window_id": "cap05_w0314",
+      "decision": "ACCEPT",
+      "attack_score": 0.9347079037800687,
+      "latency_ms": 0.24763098917901516
+    },
+    {
+      "window_id": "cap05_w0315",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24811102775856853
+    },
+    {
+      "window_id": "cap05_w0316",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.25257503148168325
+    },
+    {
+      "window_id": "cap05_w0317",
+      "decision": "ACCEPT",
+      "attack_score": 0.20446735395189003,
+      "latency_ms": 0.24659099290147424
+    },
+    {
+      "window_id": "cap05_w0318",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24587102234363556
+    },
+    {
+      "window_id": "cap05_w0319",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.24747097631916404
+    },
+    {
+      "window_id": "cap05_w0320",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.24828698951750994
+    },
+    {
+      "window_id": "cap05_w0321",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24529499933123589
+    },
+    {
+      "window_id": "cap05_w0322",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24905503960326314
+    },
+    {
+      "window_id": "cap05_w0323",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2462870324961841
+    },
+    {
+      "window_id": "cap05_w0324",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24823902640491724
+    },
+    {
+      "window_id": "cap05_w0325",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24481496075168252
+    },
+    {
+      "window_id": "cap05_w0326",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.24566298816353083
+    },
+    {
+      "window_id": "cap05_w0327",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24580699391663074
+    },
+    {
+      "window_id": "cap05_w0328",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.24782295804470778
+    },
+    {
+      "window_id": "cap05_w0329",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.2445270074531436
+    },
+    {
+      "window_id": "cap05_w0330",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.2479510148987174
+    },
+    {
+      "window_id": "cap05_w0331",
+      "decision": "ACCEPT",
+      "attack_score": 0.8573883161512027,
+      "latency_ms": 0.24753500474616885
+    },
+    {
+      "window_id": "cap05_w0332",
+      "decision": "ACCEPT",
+      "attack_score": 0.7800687285223368,
+      "latency_ms": 0.22239901591092348
+    },
+    {
+      "window_id": "cap05_w0333",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18718303181231022
+    },
+    {
+      "window_id": "cap05_w0334",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18295901827514172
+    },
+    {
+      "window_id": "cap05_w0335",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.18326396821066737
+    },
+    {
+      "window_id": "cap05_w0336",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18487899797037244
+    },
+    {
+      "window_id": "cap05_w0337",
+      "decision": "ACCEPT",
+      "attack_score": 0.8127147766323024,
+      "latency_ms": 0.18907099729403853
+    },
+    {
+      "window_id": "cap05_w0338",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.18497498240321875
+    },
+    {
+      "window_id": "cap05_w0339",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18611201085150242
+    },
+    {
+      "window_id": "cap05_w0340",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.18767896108329296
+    },
+    {
+      "window_id": "cap05_w0341",
+      "decision": "ACCEPT",
+      "attack_score": 0.9037800687285223,
+      "latency_ms": 0.18758303485810757
+    },
+    {
+      "window_id": "cap05_w0342",
+      "decision": "ACCEPT",
+      "attack_score": 0.8487972508591065,
+      "latency_ms": 0.1886230311356485
+    },
+    {
+      "window_id": "cap05_w0343",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18654396990314126
+    },
+    {
+      "window_id": "cap05_w0344",
+      "decision": "ACCEPT",
+      "attack_score": 0.07216494845360824,
+      "latency_ms": 0.1844789949245751
+    },
+    {
+      "window_id": "cap05_w0345",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.18495897529646754
+    },
+    {
+      "window_id": "cap05_w0346",
+      "decision": "ACCEPT",
+      "attack_score": 0.218213058419244,
+      "latency_ms": 0.1852790010161698
+    },
+    {
+      "window_id": "cap05_w0347",
+      "decision": "ACCEPT",
+      "attack_score": 0.1958762886597938,
+      "latency_ms": 0.18580799223855138
+    },
+    {
+      "window_id": "cap05_w0348",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.18519902369007468
+    },
+    {
+      "window_id": "cap05_w0349",
+      "decision": "ACCEPT",
+      "attack_score": 0.9192439862542955,
+      "latency_ms": 0.11721503688022494
+    },
+    {
+      "window_id": "cap05_w0350",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.1039839698933065
+    },
+    {
+      "window_id": "cap05_w0351",
+      "decision": "ATTACK",
+      "attack_score": 0.9987113402061856,
+      "latency_ms": 0.1067030243575573
+    },
+    {
+      "window_id": "cap05_w0352",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10326399933546782
+    },
+    {
+      "window_id": "cap05_w0353",
+      "decision": "ACCEPT",
+      "attack_score": 0.01718213058419244,
+      "latency_ms": 0.10012800339609385
+    },
+    {
+      "window_id": "cap05_w0354",
+      "decision": "ACCEPT",
+      "attack_score": 0.11683848797250859,
+      "latency_ms": 0.09929499356076121
+    },
+    {
+      "window_id": "cap05_w0355",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.12750399764627218
+    },
+    {
+      "window_id": "cap05_w0356",
+      "decision": "ACCEPT",
+      "attack_score": 0.7938144329896907,
+      "latency_ms": 0.10185502469539642
+    },
+    {
+      "window_id": "cap05_w0357",
+      "decision": "ACCEPT",
+      "attack_score": 0.04982817869415808,
+      "latency_ms": 0.10016001760959625
+    },
+    {
+      "window_id": "cap05_w0358",
+      "decision": "ACCEPT",
+      "attack_score": 0.030927835051546393,
+      "latency_ms": 0.09731104364618659
+    }
+  ]
+}

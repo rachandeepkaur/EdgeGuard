@@ -1,0 +1,20 @@
+{
+  "model_version": "v1",
+  "data_dir": "/sessions/rcw-01w4volzmlhyqjlwnatrq6wz/mnt/Downloads/road",
+  "group": "validation",
+  "captures": [
+    "ambient_dyno_drive_benign_anomaly",
+    "ambient_dyno_drive_extended_short"
+  ],
+  "windows": 815,
+  "attack_decisions": 2,
+  "action_counts": {
+    "SIMULATED_ALERT": 2,
+    "SIMULATED_ISOLATION": 0,
+    "SIMULATED_FORWARD": 813
+  },
+  "latency_ms_mean": 0.32265016563508825,
+  "latency_ms_median": 0.3893749999406282,
+  "latency_ms_p95": 0.4227082997203979,
+  "latency_ms_max": 0.5268340000839089
+}

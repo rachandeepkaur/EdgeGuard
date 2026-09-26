@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "vehicle_id": "veh01",
+  "built_from": {
+    "ambient_groups": "~/Downloads/road/splits.json (schema_version 2)",
+    "attack_groups": "index rule: _1/_2 development, _3 and single recordings final_test, accelerator separate",
+    "capture_ids": "discover_captures order: ambient sorted, then attacks sorted"
+  },
+  "rules": [
+    "split by capture, never by window",
+    "a fabrication capture and its _masquerade twin share a group",
+    "thresholds are chosen on validation normal drives only",
+    "final_test and separate captures are read once, by the final evaluation",
+    "development attack captures carry a cross-validation fold = their index"
+  ],
+  "captures": [
+    {
+      "name": "ambient_dyno_drive_basic_long",
+      "capture_id": "cap01",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_drive_basic_short",
+      "capture_id": "cap02",
+      "folder": "ambient",
+      "group": "final_test",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_drive_benign_anomaly",
+      "capture_id": "cap03",
+      "folder": "ambient",
+      "group": "validation",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_drive_extended_long",
+      "capture_id": "cap04",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_drive_extended_short",
+      "capture_id": "cap05",
+      "folder": "ambient",
+      "group": "validation",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_drive_radio_infotainment",
+      "capture_id": "cap06",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_drive_winter",
+      "capture_id": "cap07",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_exercise_all_bits",
+      "capture_id": "cap08",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_idle_radio_infotainment",
+      "capture_id": "cap09",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_dyno_reverse",
+      "capture_id": "cap10",
+      "folder": "ambient",
+      "group": "train",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_highway_street_driving_diagnostics",
+      "capture_id": "cap11",
+      "folder": "ambient",
+      "group": "final_test",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "ambient_highway_street_driving_long",
+      "capture_id": "cap12",
+      "folder": "ambient",
+      "group": "final_test",
+      "kind": "ambient",
+      "family": null,
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "accelerator_attack_drive_1",
+      "capture_id": "cap13",
+      "folder": "attacks",
+      "group": "separate",
+      "kind": "accelerator",
+      "family": "accelerator",
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "accelerator_attack_drive_2",
+      "capture_id": "cap14",
+      "folder": "attacks",
+      "group": "separate",
+      "kind": "accelerator",
+      "family": "accelerator",
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "accelerator_attack_reverse_1",
+      "capture_id": "cap15",
+      "folder": "attacks",
+      "group": "separate",
+      "kind": "accelerator",
+      "family": "accelerator",
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "accelerator_attack_reverse_2",
+      "capture_id": "cap16",
+      "folder": "attacks",
+      "group": "separate",
+      "kind": "accelerator",
+      "family": "accelerator",
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "correlated_signal_attack_1",
+      "capture_id": "cap17",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "correlated_signal",
+      "twin": "correlated_signal_attack_1_masquerade",
+      "fold": 1
+    },
+    {
+      "name": "correlated_signal_attack_1_masquerade",
+      "capture_id": "cap18",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "correlated_signal",
+      "twin": "correlated_signal_attack_1",
+      "fold": 1
+    },
+    {
+      "name": "correlated_signal_attack_2",
+      "capture_id": "cap19",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "correlated_signal",
+      "twin": "correlated_signal_attack_2_masquerade",
+      "fold": 2
+    },
+    {
+      "name": "correlated_signal_attack_2_masquerade",
+      "capture_id": "cap20",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "correlated_signal",
+      "twin": "correlated_signal_attack_2",
+      "fold": 2
+    },
+    {
+      "name": "correlated_signal_attack_3",
+      "capture_id": "cap21",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "fabrication",
+      "family": "correlated_signal",
+      "twin": "correlated_signal_attack_3_masquerade",
+      "fold": null
+    },
+    {
+      "name": "correlated_signal_attack_3_masquerade",
+      "capture_id": "cap22",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "masquerade",
+      "family": "correlated_signal",
+      "twin": "correlated_signal_attack_3",
+      "fold": null
+    },
+    {
+      "name": "fuzzing_attack_1",
+      "capture_id": "cap23",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fuzzing",
+      "family": "fuzzing",
+      "twin": null,
+      "fold": 1
+    },
+    {
+      "name": "fuzzing_attack_2",
+      "capture_id": "cap24",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fuzzing",
+      "family": "fuzzing",
+      "twin": null,
+      "fold": 2
+    },
+    {
+      "name": "fuzzing_attack_3",
+      "capture_id": "cap25",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "fuzzing",
+      "family": "fuzzing",
+      "twin": null,
+      "fold": null
+    },
+    {
+      "name": "max_engine_coolant_temp_attack",
+      "capture_id": "cap26",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "fabrication",
+      "family": "max_engine_coolant_temp",
+      "twin": "max_engine_coolant_temp_attack_masquerade",
+      "fold": null
+    },
+    {
+      "name": "max_engine_coolant_temp_attack_masquerade",
+      "capture_id": "cap27",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "masquerade",
+      "family": "max_engine_coolant_temp",
+      "twin": "max_engine_coolant_temp_attack",
+      "fold": null
+    },
+    {
+      "name": "max_speedometer_attack_1",
+      "capture_id": "cap28",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "max_speedometer",
+      "twin": "max_speedometer_attack_1_masquerade",
+      "fold": 1
+    },
+    {
+      "name": "max_speedometer_attack_1_masquerade",
+      "capture_id": "cap29",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "max_speedometer",
+      "twin": "max_speedometer_attack_1",
+      "fold": 1
+    },
+    {
+      "name": "max_speedometer_attack_2",
+      "capture_id": "cap30",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "max_speedometer",
+      "twin": "max_speedometer_attack_2_masquerade",
+      "fold": 2
+    },
+    {
+      "name": "max_speedometer_attack_2_masquerade",
+      "capture_id": "cap31",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "max_speedometer",
+      "twin": "max_speedometer_attack_2",
+      "fold": 2
+    },
+    {
+      "name": "max_speedometer_attack_3",
+      "capture_id": "cap32",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "fabrication",
+      "family": "max_speedometer",
+      "twin": "max_speedometer_attack_3_masquerade",
+      "fold": null
+    },
+    {
+      "name": "max_speedometer_attack_3_masquerade",
+      "capture_id": "cap33",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "masquerade",
+      "family": "max_speedometer",
+      "twin": "max_speedometer_attack_3",
+      "fold": null
+    },
+    {
+      "name": "reverse_light_off_attack_1",
+      "capture_id": "cap34",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "reverse_light_off",
+      "twin": "reverse_light_off_attack_1_masquerade",
+      "fold": 1
+    },
+    {
+      "name": "reverse_light_off_attack_1_masquerade",
+      "capture_id": "cap35",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "reverse_light_off",
+      "twin": "reverse_light_off_attack_1",
+      "fold": 1
+    },
+    {
+      "name": "reverse_light_off_attack_2",
+      "capture_id": "cap36",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "reverse_light_off",
+      "twin": "reverse_light_off_attack_2_masquerade",
+      "fold": 2
+    },
+    {
+      "name": "reverse_light_off_attack_2_masquerade",
+      "capture_id": "cap37",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "reverse_light_off",
+      "twin": "reverse_light_off_attack_2",
+      "fold": 2
+    },
+    {
+      "name": "reverse_light_off_attack_3",
+      "capture_id": "cap38",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "fabrication",
+      "family": "reverse_light_off",
+      "twin": "reverse_light_off_attack_3_masquerade",
+      "fold": null
+    },
+    {
+      "name": "reverse_light_off_attack_3_masquerade",
+      "capture_id": "cap39",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "masquerade",
+      "family": "reverse_light_off",
+      "twin": "reverse_light_off_attack_3",
+      "fold": null
+    },
+    {
+      "name": "reverse_light_on_attack_1",
+      "capture_id": "cap40",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "reverse_light_on",
+      "twin": "reverse_light_on_attack_1_masquerade",
+      "fold": 1
+    },
+    {
+      "name": "reverse_light_on_attack_1_masquerade",
+      "capture_id": "cap41",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "reverse_light_on",
+      "twin": "reverse_light_on_attack_1",
+      "fold": 1
+    },
+    {
+      "name": "reverse_light_on_attack_2",
+      "capture_id": "cap42",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "fabrication",
+      "family": "reverse_light_on",
+      "twin": "reverse_light_on_attack_2_masquerade",
+      "fold": 2
+    },
+    {
+      "name": "reverse_light_on_attack_2_masquerade",
+      "capture_id": "cap43",
+      "folder": "attacks",
+      "group": "development",
+      "kind": "masquerade",
+      "family": "reverse_light_on",
+      "twin": "reverse_light_on_attack_2",
+      "fold": 2
+    },
+    {
+      "name": "reverse_light_on_attack_3",
+      "capture_id": "cap44",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "fabrication",
+      "family": "reverse_light_on",
+      "twin": "reverse_light_on_attack_3_masquerade",
+      "fold": null
+    },
+    {
+      "name": "reverse_light_on_attack_3_masquerade",
+      "capture_id": "cap45",
+      "folder": "attacks",
+      "group": "final_test",
+      "kind": "masquerade",
+      "family": "reverse_light_on",
+      "twin": "reverse_light_on_attack_3",
+      "fold": null
+    }
+  ]
+}
